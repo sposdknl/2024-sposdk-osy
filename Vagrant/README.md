@@ -9,6 +9,6 @@ Repository pro vyuku na SPOS DK
 
 [Vagrantfile-fbsd](https://app.vagrantup.com/freebsd/boxes/FreeBSD-14.1-RELEASE)
 
-[[Vagrantfile-pfsense](https://app.vagrantup.com/cmad/boxes/pfsense)
+[Vagrantfile-pfsense](https://app.vagrantup.com/cmad/boxes/pfsense)
 
 ...
