@@ -1,0 +1,39 @@
+IMAGE_NAME = "freebsd/FreeBSD-14.1-RELEASE"
+
+Vagrant.configure("2") do |config|
+    config.ssh.insert_key = false
+
+    config.vm.provider "virtualbox " do |vmware|
+        vmware.allowlist_verified = true
+        vmware.memory = 1024
+        vmware.cpus = 1
+    end
+
+    config.vm.define "bastion" do |bastion|
+        bastion.vm.box = IMAGE_NAME
+	config.vm.box_version = "2024.05.31"
+	config.disksize.size = '20GB'
+        bastion.vm.network "forwarded_port", guest: 22, host: 2203, host_ip: "127.0.0.1"
+	bastion.vm.network "private_network", ip: "192.168.24.3"
+        bastion.vm.hostname = "fbsd14"
+    end
+
+    config.vm.provision "file", source: "id_ed25519.pub", destination: "~/.ssh/me.pub"
+    config.vm.provision "shell", inline: <<-SHELL
+       cat /home/vagrant/.ssh/me.pub >> /home/vagrant/.ssh/authorized_keys
+       pkg install -y portsnap
+        pkg install -y portupgrade
+        pkg install -y py39-ansible python39 py39-setuptools
+        pkg install -y joe mc nmap bind-tools
+        /usr/local/sbin/portsnap fetch > /dev/null
+        /usr/local/sbin/portsnap extract > /dev/null
+        portsnap fetch && portsnap update && pkg version -v | grep upd > /tmp/pkg_for_upgrade.txt
+        touch /etc/make.conf
+        echo "BATCH=yes" > /etc/make.conf
+        cp /etc/ssh/sshd_config /etc/ssh/sshd_config-orig
+        sed -i -e "s/#PermitRootLogin no/PermitRootLogin yes/g" /etc/ssh/sshd_config
+        /etc/rc.d/sshd restart
+        echo freebsd | pw mod user root -h 0
+        ifconfig em1
+    SHELL
+end
