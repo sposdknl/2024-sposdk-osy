@@ -7,10 +7,8 @@ Repository pro vyuku na SPOS DK
 
 [Vagrantfile-ubuntu](https://app.vagrantup.com/ubuntu/boxes/jammy64)
 
-[FreeBSD](https://app.vagrantup.com/freebsd/boxes/FreeBSD-14.1-RELEASE)
+[Vagrantfile-fbsd](https://app.vagrantup.com/freebsd/boxes/FreeBSD-14.1-RELEASE)
 
-[pfSnese](https://app.vagrantup.com/cmad/boxes/pfsense)
-
-[Zabbix](https://www.zabbix.com/download)
+[[Vagrantfile-pfsense](https://app.vagrantup.com/cmad/boxes/pfsense)
 
 ...
