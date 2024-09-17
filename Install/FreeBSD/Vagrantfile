@@ -1,0 +1,31 @@
+IMAGE_NAME = "freebsd/FreeBSD-14.1-RELEASE"
+
+Vagrant.configure("2") do |config|
+    config.ssh.insert_key = false
+
+    config.vm.provider "virtualbox" do |vbox|
+        vbox.allowlist_verified = true
+        vbox.memory = 1024
+        vbox.cpus = 1
+    end
+
+    config.vm.define "bastion" do |bastion|
+        bastion.vm.box = IMAGE_NAME
+	config.vm.box_version = "2024.05.31"
+	config.disksize.size = '20GB'
+        bastion.vm.network "forwarded_port", guest: 22, host: 2203, host_ip: "127.0.0.1"
+	bastion.vm.network "private_network", ip: "192.168.24.3"
+        bastion.vm.hostname = "fbsd14"
+    end
+
+    config.vm.provision "shell", inline: <<-SHELL
+       pkg install -y portsnap
+       pkg install -y portupgrade
+       /usr/local/sbin/portsnap fetch > /dev/null
+       /usr/local/sbin/portsnap extract > /dev/null
+       portsnap fetch && portsnap update && pkg version -v | grep upd > /tmp/pkg_for_upgrade.txt
+       touch /etc/make.conf
+       echo "BATCH=yes" > /etc/make.conf
+       echo freebsd | pw mod user root -h 0
+    SHELL
+end
