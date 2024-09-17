@@ -1,0 +1,118 @@
+Základem pro úspěšnou práci s Linuxem je dokumentace. Část najdete přímo v nainstalovaném systému, zbytek pak na Internetu nebo přímo ve zdrojových kódech (např. jako komentáře).
+
+== Manuálové stránky ==
+
+Nejstarší dokumentace je ve formě manuálových stránek. Ty jsou zapsány v souborech, které najdete v adresáři <CODE>/usr/share/man</CODE>. Zde naleznete podadresáře <CODE>man1</CODE> až <CODE>man9</CODE>, které obsahují jednotlivé manuálové stránky roztříděné do sekcí podle následujícího seznamu:
+
+=== Sekce manuálových stránek ===
+
+# uživatelské příkazy
+# služby jádra systému
+# knihovní funkce jazyka C
+# zařízení a ovladače zařízení
+# formáty souborů a protokoly (wtmp, /etc/passwd, nfs, ...)
+# triviální aplikační programy, hry
+# různé (např. nroff, ascii, utf-8, url, ...)
+# administrátorské příkazy, správa systému 
+
+Překlady manuálových stránek jsou uloženy v adresářích, které odpovídají příslušné zkratce jazyka (české v adresáři cs, slovenské v adresáři sk a podobně). Překlady jsou dále děleny podle sekcí zmíněných výše.
+
+V následujícím příkladu je nejprve zobrazena manuálová stránka o programu <code>passwd</code> (ze sekce 1), na druhém řádku pak manuálová stránka popisující formát souboru <code>/etc/passwd</code> ze sekce 5 (existenci dvou stejnojmenných manuálových stránek v různých sekcích srovnejte s výstupem příkazů <code>whatis</code> a <code>apropos</code> níže).
+
+ $ man passwd
+ $ man 5 passwd
+
+=== Zobrazení manuálových stránek ===
+
+Manuálové stránky lze prohlížet několika způsoby. Prvním a nejstarším je příkaz <CODE>man</CODE>, který umožňuje manuálové stránky naformátovat příkazem <CODE>nroff</CODE> a zobrazit pomocí filtru <CODE>less</CODE>. Ve většině případů jsou manuálové stránky uloženy na disku v komprimovaném stavu, takže příkaz <CODE>man</CODE> je musí před formátovám ještě rozbalit (například nástrojem <CODE>gunzip</CODE>). Příkaz <CODE>man</CODE> provádí všechny potřebné mezikroky automaticky a pro zvětšení rychlosti zobrazení stránky si ukládá předformátované soubory do adresáře <CODE>/var/cache/man</CODE>.
+
+Po zobrazení je manuálová stránka předána speciálnímu programu <CODE>less</CODE>, pomocí kterého můžete v textu listovat:
+
+* vpřed - mezerník, šipka dolů, Enter, Page Down
+* vzad - šipka nahoru, b, Page Up
+* vyhledávat text - stiskněte dopředné lomítko a pak ihned napište hledaný text a stiskněte Enter
+* najít další výskyt - stiskněte písmeno n
+* najít předchozí - stiskněte písmeno N
+* ukončit prohlížení manuálové stránky - stiskněte písmeno q
+* nápověda - stiskněte písmeno h 
+
+Manuálová stránka je zobrazena v národním jazyce, pokud je k dispozici její překlad. České překlady jsou k dispozici v balíčku <CODE>[[man-pages-cs]]</CODE>, obdobně překlady i pro ostatní jazyky. Překlady mohou být někdy zastaralé, proto je vhodné konzultovat i originální manálovou stránku v angličtině:
+
+ $ man man          # nápověda pro příkaz man
+ $ man --help       # stručná nápověda pro příkaz man
+ $ man whatis
+ $ man apropos
+ $ man 5 passwd     # nápověda pro soubor passwd (ze sekce 5)
+ $ man cp           # nápověda pro příkaz cp
+ $ LANG=cs man cp   # nápověda pro příkaz cp v češtině (je-li k dispozici)
+ $ LANG=sk man cp   # nápověda pro příkaz cp ve slovenštině
+ $ LANG=C  man cp   # nápověda pro příkaz cp v angličtině
+ $ LC_ALL=C man cp  # nejsilnější požadavek na anglickou variantu
+
+=== Prohledávání manuálových stránek ===
+
+K prohledávání manuálových stránek slouží příkaz <CODE>whatis</CODE> (zobrazí všechny manuálové stránky, které mají v názvu hledaný výraz) a <CODE>apropos</CODE>, který prohledává i stručné popisky manuálových stránek. Databázi pro tyto dva příkazy je potřeba předem vytvořit pomocí příkazu <CODE>makewhatis</CODE>, o což se obvykle stará automatický skript spouštěný démonem <CODE>cron</CODE>.
+
+ $ whatis passwd
+ $ apropos passwd
+
+=== Tisk manuálové stránky ===
+
+Prohlížená manuálová stránka není ve vhodném tvaru pro tisk. Využijeme tedy příkazu <CODE>col</CODE>, který odstraní řídící znaky pro zobrazení na terminálu. Výsledný soubor <CODE>tisk.txt</CODE> je již možné otevřít v běžném editoru.
+
+  man ls | col -bf > tisk.txt
+
+Manuálové stránky jsou uloženy v adresáři <code>/usr/share/man/manKÓDSEKCE</code>, překlady pak v adresářích <code>/usr/share/man/ZKRATKA</code>, kde zkratka je kód příslušného locale (jazyka). Pokud nejsou příslušné překlady nainstalovány, zobrazí se anglická verze (je-li přítomna).
+
+== Formát Info ==
+
+Dokumentace ke GNU považuje manuálové stránky za zastaralé, a proto je k dispozici i formát ''info'', který obsahuje možnosti tvorby hypertextových odkazů (na zvýrazněné termíny lze kliknout a přenést se tak na jiné místo). Příkaz <CODE>info</CODE> není pro běžné používání příliš příjemný, a proto doporučuji použít příkaz <CODE>pinfo</CODE>, který se ovládá velmi příjemně šipkami (Enter je vstup do odkazu, šipka vlevo je zpět) a disponuje i barevným zvýrazňováním. Oba příkazy jsou schopné zobrazit i běžné manuálové stránky, ovšem bez podpory překladů.
+
+ info grep
+ pinfo grep
+
+Soubory s dokumentací ve formátu GNU Info jsou obvykle v adresáři <code>/usr/share/info</code>.
+
+== Nápověda v grafickém prostředí ==
+
+Manuálové stránky lze velmi pěkně zobrazit i v grafickém prostředí, kde existuje obvykle univerzální nástroj pro nápovědu, prohledávání i tisk.
+
+== Dokumentace k jednotlivým programům ==
+
+Dokumentace k jednotlivým programům je umístěna v adresáři <CODE>/usr/share/doc</CODE>, kde naleznete podadresáře se jmény příslušných programů. V nich pak naleznete nejrůznější doplňující informace (pokud je dal autor programu k dispozici).
+
+Příklad výše zmíněného adresáře si můžete prohlédnout na adrese http://pluto.pslib.cz/doc/ (nepřetěžujte prosím tento počítač automatickými nástroji).
+
+== Projekt LDP ==
+
+Pro obecnější texty a popisy postupů (tzv. HOWTO, FAQ) se vydejte na adresu http://www.tldp.org.
+
+Projekt LDP (The Linux Documentation Project) by částečně přeložen do češtiny v nakladatelství Computer Press, který si můžete prohlédnou i na adrese http://ftp.linux.cz/pub/linux/people/milan_kerslager/ldp3/, protože je vydavatel díky licenci GPL uvolnil i ve formátu PDF.
+
+== Další zdroje informací ==
+
+Na Internetu pak naleznete spoustu dalších míst, které se věnují Linuxu:
+
+{| class=wikitable
+|-
+! České !! Anglické
+|-
+| width="50%" valign=top |
+* [[csw:Manuálové_stránky_(Unix)|Manuálové stránky]] na české Wikipedii
+* http://www.linux.cz &ndash; stránky o jádře atd.
+* http://www.root.cz &ndash; webový magazín, denní zprávičky
+* http://www.linuxsoft.cz &ndash; webový magazín, denní zprávičky
+* http://www.abclinuxu.cz &ndash; webový občasník, denní zprávičky
+| valign=top |
+* http://www.linux.sk &ndash; slovenská varianta
+* http://www.linux.com &ndash; komerční stránky Linuxu
+* http://www.linux.com &ndash; nekomerční stránky Linuxu
+* http://lwn.net &ndash; odborný týdeník
+* http://osnews.com &ndash; odkazy na články
+* http://sourceforge.net &ndash; opensource projekty
+* http://freshmeat.net &ndash; novinky v opensource 
+|}
+
+Dobrým zdrojem informací je i originální dokumentace k RHEL, kterou naleznete na adrese http://www.redhat.com/docs/manuals/enterprise/.
+
+[[Kategorie:Práce s Linuxem]]
