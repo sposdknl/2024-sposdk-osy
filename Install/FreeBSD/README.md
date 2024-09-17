@@ -10,7 +10,7 @@ pomocí [Vagrantfile](https://app.vagrantup.com/freebsd/boxes/FreeBSD-14.1-RELEA
 Windows instalator [vagrant_2.4.1_windows_amd64.msi](https://releases.hashicorp.com/vagrant/2.4.1/vagrant_2.4.1_windows_amd64.msi)
 dále pak verzovací nástroj [Git-2.46.0-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe)
 pro získání souborů tohoto projektu a SSH terminal [putty-64bit-0.81-installer.msi](https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi)
-pro přihlášení na konzoli.
+pro přihlášení na konzoli. Vagrant vyžaduje [VirtualBox-6.1.50-161033-Win.exe](https://download.virtualbox.org/virtualbox/6.1.50/VirtualBox-6.1.50-161033-Win.exe) 
 
 ```console
 apt install vagrant
