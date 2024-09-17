@@ -5,9 +5,12 @@ Repository pro vyuku na SPOS DK
 
 ## Install OS
 
-Nainstalujte [FreeBSD](https://www.freebsd.org/releases/14.1R/announce/)
+Nainstalujte si OS [FreeBSD](https://www.freebsd.org/releases/14.1R/announce/)
 pomocí [Vagrantfile](https://app.vagrantup.com/freebsd/boxes/FreeBSD-14.1-RELEASE)
 Windows instalator [vagrant_2.4.1_windows_amd64.msi](https://releases.hashicorp.com/vagrant/2.4.1/vagrant_2.4.1_windows_amd64.msi)
+dále pak verzovací nástroj [Git-2.46.0-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe)
+pro získání souborů tohoto projektu a SSH terminal [putty-64bit-0.81-installer.msi](https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi)
+pro přihlášení na konzoli.
 
 ```console
 apt install vagrant
@@ -25,6 +28,7 @@ vagrant-libvirt (0.7.0, system)
 virtualbox (0.8.6, global)
 
 vagrant up
+vagrant ssh
 }
 
 ...
