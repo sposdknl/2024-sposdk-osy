@@ -37,8 +37,8 @@ Po instalaci FreeBSD se připojíme pomoci Putty na localhost port 2201 pod uži
 
 ```console
 pkg install -y portsnap
-portsnap fetch
 mkdir -p /var/db/portsnap
+portsnap fetch
 portsnap extract
 
 portsnap fetch && portsnap update && pkg version -v | grep upd
