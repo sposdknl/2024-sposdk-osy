@@ -5,7 +5,7 @@ Repository pro vyuku na SPOS DK
 
 ## Práce s Linuxem
 
-[Dokumentace v Linuxu](https://www.pslib.cz/milan.kerslager/Dokumentace_v_Linuxu)
+[Dokumentace v Linuxu](Docs/Linux_Dokumentace.md)
 
 [Konzole v Linuxu](https://www.pslib.cz/milan.kerslager/Konzole_v_Linuxu)
 
