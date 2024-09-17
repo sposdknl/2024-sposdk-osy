@@ -2,7 +2,7 @@ Základem pro úspěšnou práci s Linuxem je dokumentace. Část najdete přím
 v nainstalovaném systému, zbytek pak na Internetu nebo přímo ve
 zdrojových kódech (např. jako komentáře).
 
-Manuálové stránky {#manuálové_stránky}
+Manuálové stránky
 -----------------
 
 Nejstarší dokumentace je ve formě manuálových stránek. Ty jsou zapsány v
@@ -10,7 +10,7 @@ souborech, které najdete v adresáři `/usr/share/man`. Zde naleznete
 podadresáře `man1` až `man9`, které obsahují jednotlivé manuálové
 stránky roztříděné do sekcí podle následujícího seznamu:
 
-### Sekce manuálových stránek {#sekce_manuálových_stránek}
+### Sekce manuálových stránek
 
 1.  uživatelské příkazy
 2.  služby jádra systému
@@ -34,7 +34,7 @@ výstupem příkazů `whatis` a `apropos` níže).
 `$ man passwd`\
 `$ man 5 passwd`
 
-### Zobrazení manuálových stránek {#zobrazení_manuálových_stránek}
+### Zobrazení manuálových stránek
 
 Manuálové stránky lze prohlížet několika způsoby. Prvním a nejstarším je
 příkaz `man`, který umožňuje manuálové stránky naformátovat příkazem
@@ -74,7 +74,7 @@ konzultovat i originální manálovou stránku v angličtině:
 `$ LANG=C  man cp   # nápověda pro příkaz cp v angličtině`\
 `$ LC_ALL=C man cp  # nejsilnější požadavek na anglickou variantu`
 
-### Prohledávání manuálových stránek {#prohledávání_manuálových_stránek}
+### Prohledávání manuálových stránek
 
 K prohledávání manuálových stránek slouží příkaz `whatis` (zobrazí
 všechny manuálové stránky, které mají v názvu hledaný výraz) a
@@ -86,7 +86,7 @@ démonem `cron`.
 `$ whatis passwd`\
 `$ apropos passwd`
 
-### Tisk manuálové stránky {#tisk_manuálové_stránky}
+### Tisk manuálové stránky
 
 Prohlížená manuálová stránka není ve vhodném tvaru pro tisk. Využijeme
 tedy příkazu `col`, který odstraní řídící znaky pro zobrazení na
@@ -118,13 +118,13 @@ stránky, ovšem bez podpory překladů.
 Soubory s dokumentací ve formátu GNU Info jsou obvykle v adresáři
 `/usr/share/info`.
 
-Nápověda v grafickém prostředí {#nápověda_v_grafickém_prostředí}
+Nápověda v grafickém prostředí
 ------------------------------
 
 Manuálové stránky lze velmi pěkně zobrazit i v grafickém prostředí, kde
 existuje obvykle univerzální nástroj pro nápovědu, prohledávání i tisk.
 
-Dokumentace k jednotlivým programům {#dokumentace_k_jednotlivým_programům}
+Dokumentace k jednotlivým programům
 -----------------------------------
 
 Dokumentace k jednotlivým programům je umístěna v adresáři
@@ -132,47 +132,25 @@ Dokumentace k jednotlivým programům je umístěna v adresáři
 programů. V nich pak naleznete nejrůznější doplňující informace (pokud
 je dal autor programu k dispozici).
 
-Příklad výše zmíněného adresáře si můžete prohlédnout na adrese
-<http://pluto.pslib.cz/doc/> (nepřetěžujte prosím tento počítač
-automatickými nástroji).
-
-Projekt LDP {#projekt_ldp}
+Projekt LDP
 -----------
 
 Pro obecnější texty a popisy postupů (tzv. HOWTO, FAQ) se vydejte na
-adresu <http://www.tldp.org>.
+adresu [http://www.tldp.org](http://www.tldp.org).
 
 Projekt LDP (The Linux Documentation Project) by částečně přeložen do
 češtiny v nakladatelství Computer Press, který si můžete prohlédnou i na
-adrese <http://ftp.linux.cz/pub/linux/people/milan_kerslager/ldp3/>,
+adrese [http://ftp.linux.cz/pub/linux/people/milan_kerslager/ldp3/](http://ftp.linux.cz/pub/linux/people/milan_kerslager/ldp3/),
 protože je vydavatel díky licenci GPL uvolnil i ve formátu PDF.
 
-Další zdroje informací {#další_zdroje_informací}
+Další zdroje informací
 ----------------------
 
 Na Internetu pak naleznete spoustu dalších míst, které se věnují Linuxu:
 
-+----------------------------------+----------------------------------+
-| České                            | Anglické                         |
-+==================================+==================================+
-| -   [Manuálové                   | -   <http://www.linux.sk> --     |
-|     stránky](csw:Manu            |     slovenská varianta           |
-| álové_stránky_(Unix) "wikilink") | -   <http://www.linux.com> --    |
-|     na české Wikipedii           |     komerční stránky Linuxu      |
-| -   <http://www.linux.cz> --     | -   <http://www.linux.com> --    |
-|     stránky o jádře atd.         |     nekomerční stránky Linuxu    |
-| -   <http://www.root.cz> --      | -   <http://lwn.net> -- odborný  |
-|     webový magazín, denní        |     týdeník                      |
-|     zprávičky                    | -   <http://osnews.com> --       |
-| -   <http://www.linuxsoft.cz> -- |     odkazy na články             |
-|     webový magazín, denní        | -   <http://sourceforge.net> --  |
-|     zprávičky                    |     opensource projekty          |
-| -   <http://www.abclinuxu.cz> -- | -   <http://freshmeat.net> --    |
-|     webový občasník, denní       |     novinky v opensource         |
-|     zprávičky                    |                                  |
-+----------------------------------+----------------------------------+
+- [https://cs.wikipedia.org](https://cs.wikipedia.org/wiki/Manu%C3%A1lov%C3%A1_str%C3%A1nka) na české Wikipedii
+- [http://www.linux.cz](http://www.linux.cz) stránky o jádře atd.
+- [http://www.root.cz](http://www.root.cz) webový magazín, denní zprávičky
+- [http://www.abclinuxu.cz](http://www.abclinuxu.cz) webový občasník, denní zprávičky
 
-Dobrým zdrojem informací je i originální dokumentace k RHEL, kterou
-naleznete na adrese <http://www.redhat.com/docs/manuals/enterprise/>.
-
-[Kategorie:Práce s Linuxem](Kategorie:Práce_s_Linuxem "wikilink")
+Autorem původního textu: [https://www.pslib.cz/milan.kerslager/]{Milan Keslager}

@@ -29,6 +29,6 @@ virtualbox (0.8.6, global)
 
 vagrant up
 vagrant ssh
-}
+```
 
 ...
