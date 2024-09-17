@@ -31,4 +31,29 @@ vagrant up
 vagrant ssh
 ```
 
+## Konfigurace
+
+Po instalaci FreeBSD se připojíme pomoci Putty na localhost port 2201 pod uživatelem vagrant s heslem vagrant. Provedeme stažení portů a zkompilujeme editor joe.
+
+```console
+pkg install -y portsnap
+portsnap fetch
+mkdir -p /var/db/portsnap
+portsnap extract
+
+portsnap fetch && portsnap update && pkg version -v | grep upd
+
+touch /etc/make.conf
+echo "BATCH=yes" > /etc/make.conf
+
+pkg install joe
+
+cd /usr/ports
+make fetchindex
+make search name=joe
+cd /usr/ports/editors/joe
+make install clean
+
+echo freebsd | pw mod user root -h 0
+```
 ...
