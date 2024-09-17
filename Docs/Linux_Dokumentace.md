@@ -153,4 +153,6 @@ Na Internetu pak naleznete spoustu dalších míst, které se věnují Linuxu:
 - [http://www.root.cz](http://www.root.cz) webový magazín, denní zprávičky
 - [http://www.abclinuxu.cz](http://www.abclinuxu.cz) webový občasník, denní zprávičky
 
-Autorem původního textu: [https://www.pslib.cz/milan.kerslager/Linux](Milan Keslager)
+### Autor
+
+Autorem původního textu [Milan Keslager](https://www.pslib.cz/milan.kerslager/Linux)
