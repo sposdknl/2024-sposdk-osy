@@ -46,7 +46,8 @@ portsnap fetch && portsnap update && pkg version -v | grep upd
 touch /etc/make.conf
 echo "BATCH=yes" > /etc/make.conf
 
-pkg install joe
+pkg install -y joe 
+pkg install -y gmake
 
 cd /usr/ports
 make fetchindex
@@ -55,5 +56,10 @@ cd /usr/ports/editors/joe
 make install clean
 
 echo freebsd | pw mod user root -h 0
+
+pkg install -y mc
+pkg install -y portupgrade
+pkg install -y nmap
+pkg install -y apache24
 ```
 ...
