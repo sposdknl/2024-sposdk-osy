@@ -5,8 +5,7 @@ Repository pro vyuku na SPOS DK
 
 ## Install OS
 
-Zde je návod na instalaci Ubuntu
-[Ubuntu](https://www.ubuntu.cz/ziskat-ubuntu/stahnout-desktop/instalace/).
+Zde je návod na instalaci [Ubuntu server](https://ubuntu.com/tutorials/install-ubuntu-server#1-overview).
 
 - Stáhněte ISO Ubuntu server (minimalized) 24.04.1 LTS z - [https://cz.releases.ubuntu.com/24.04.1/ubuntu-24.04.1-live-server-amd64.iso](https://cz.releases.ubuntu.com/24.04.1/ubuntu-24.04.1-live-server-amd64.iso)
 - Nainstalujte do VirtualBoxu
