@@ -2,8 +2,8 @@ IMAGE_NAME = "freebsd/FreeBSD-14.1-RELEASE"
 
 Vagrant.configure("2") do |config|
     config.vm.provider "virtualbox" do |vbox|
-        vbox.memory = 1024
-        vbox.cpus = 1
+        vbox.memory = 2048
+        vbox.cpus = 4
     end
 
     config.vm.define "fbsd14" do |fbsd|
