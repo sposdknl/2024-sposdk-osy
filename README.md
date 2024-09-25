@@ -1,7 +1,7 @@
 # 2024-sposdk-osy
 Repositories for teaching purposes at SPOS DK
 
-![Ucebna OSY](./Smages/Images/osy-classroom.webp)
+![Ucebna OSY AI](./Images/osy-classroom.webp)
 
 Repository pro vyuku na SPOS DK
 
