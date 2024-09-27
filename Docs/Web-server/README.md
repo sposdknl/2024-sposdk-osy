@@ -7,7 +7,7 @@ Repository pro vyuku na SPOS DK
 
 ## Server pro 3.I. OSY
 
-- Vytvoření virtuálního serveru [https:/spos.pfsense.cz](https:/spos.pfsense.cz) pro potřeby výuky. Účel je vzdálená komunikace pomoci SSH a provoz Web serveru pro uzivatele [https:/spos.pfsense.cz/~malyl](https:/spos.pfsense.cz/~malyl).
+- Vytvoření virtuálního serveru [https://spos.pfsense.cz](https://spos.pfsense.cz) pro potřeby výuky. Účel je vzdálená komunikace pomoci SSH a provoz Web serveru pro uzivatele [https://spos.pfsense.cz/~malyl/](https://spos.pfsense.cz/~malyl/).
 
 
 ```console
