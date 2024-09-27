@@ -3,7 +3,7 @@ Repositories for teaching purposes at SPOS DK
 
 Repository pro vyuku na SPOS DK
 
-![Server OSY AI](./Images/server-osy.webp)
+![Server OSY AI](../../Images/server-osy.webp)
 
 ## Server pro 3.I. OSY
 
