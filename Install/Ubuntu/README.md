@@ -59,7 +59,6 @@ The key's randomart image is:
 - Do PuTTYGen nahrajte svuj privatni klíč vytvořený pomocí ssh-keygen.exe a uložte public i private pod Vaším jménem do .ssh/
 - Do Pagent si nahrajte Váš privátní klíč ve formátu PuTTy
 - Vytvořte si v PuTTy session "Ubuntu - Vagrant", host localhost, port 2202
-- Připojte se pomocí PuTTY k Ubuntu pomocí ssh klíče pod uživatelem vagrant
 
 ```console
 PS C:\Users\hp> ls .\.ssh\
@@ -73,6 +72,8 @@ Mode                 LastWriteTime         Length Name
 -a----        27.09.2024      9:23           2655 id_rsa
 -a----        27.09.2024      9:23            573 id_rsa.pub
 -a----        18.09.2024     13:32            532 known_hosts
+-a----        27.09.2024      9:42           2215 LukasMaly.ppk
+-a----        27.09.2024      9:42            649 LukasMaly.pub
 
 
 PS C:\Users\hp> cp -v .\.ssh\id_rsa.pub .\work\2024-sposdk-osy\Install\Ubuntu\
@@ -81,7 +82,8 @@ C:\Users\hp\work\2024-sposdk-osy\Install\Ubuntu\id_rsa.pub".
 ```
 
 - Vytvořte si nový virtuální server pomocí Vagrant
-- Pripojte se pomoci PuTTY, vagrant ssh, nebo jen ssh vagrant@localhost - tři způsoby.
+- Připojte se pomocí PuTTY k Ubuntu pomocí ssh klíče pod uživatelem vagrant
+- Vyzkoušejte PuTTY, vagrant ssh, nebo jen ssh vagrant@localhost - tři způsoby.
 
 ```console
 PS C:\Users\hp\work\2024-sposdk-osy\Install\Ubuntu> vagrant up
