@@ -100,7 +100,7 @@ překlady pak v adresářích `/usr/share/man/ZKRATKA`, kde zkratka je kód
 příslušného locale (jazyka). Pokud nejsou příslušné překlady
 nainstalovány, zobrazí se anglická verze (je-li přítomna).
 
-Formát Info {#formát_info}
+Formát Info
 -----------
 
 Dokumentace ke GNU považuje manuálové stránky za zastaralé, a proto je k
