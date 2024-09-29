@@ -33,7 +33,8 @@ vagrant ssh
 
 ## Konfigurace
 
-Po instalaci FreeBSD se připojíme pomoci Putty na localhost port 2201 pod uživatelem vagrant s heslem vagrant. Provedeme stažení portů a zkompilujeme editor joe.
+- Po instalaci FreeBSD se připojíme pomoci Putty na localhost port 2201 pod uživatelem vagrant s heslem vagrant.
+- Provedeme stažení portů a zkompilujeme editor joe.
 
 ```console
 pkg install -y portsnap
@@ -46,17 +47,60 @@ portsnap fetch && portsnap update && pkg version -v | grep upd
 touch /etc/make.conf
 echo "BATCH=yes" > /etc/make.conf
 
+# Instalace editoru joe z repository z balicku
 pkg install -y joe 
 pkg install -y gmake
 
 cd /usr/ports
 make fetchindex
+
+pkg info | grep joe
+joe-4.6_1,1                    Joe's Own Editor
+
+pkg delete joe-4.6_1,1
+Checking integrity... done (0 conflicting)
+Deinstallation has been requested for the following 1 packages (of 0 packages in the universe):
+
+Installed packages to be REMOVED:
+	joe: 4.6_1,1
+
+Number of packages to be removed: 1
+
+The operation will free 2 MiB.
+
+Proceed with deinstalling packages? [y/N]: y
+[1/1] Deinstalling joe-4.6_1,1...
+[1/1] Deleting files for joe-4.6_1,1: 100%
+
+# Instalace editoru joe z portu - vlastni balicek
+cd /usr/ports
 make search name=joe
+
+ort:	joe-4.6_1,1
+Path:	/usr/ports/editors/joe
+Info:	Joe's Own Editor
+Maint:	juergen.gotteswinter@googlemail.com
+B-deps:	gettext-runtime-0.22.5 gmake-4.4.1 indexinfo-0.3.1
+R-deps:	
+WWW:	https://sourceforge.net/projects/joe-editor/
+
+cd /usr/ports/editors/joe
+make package
+ls -l work/pkg/joe-4.6_1,1.pkg 
+-rw-r--r--  1 root wheel 512074 Sep 29 13:51 work/pkg/joe-4.6_1,1.pkg
+
+pkg install work/pkg/joe-4.6_1,1.pkg
+
+pkg delete joe-4.6_1,1
+
+# Instalace editoru joe z portu - kompilace a instalace
 cd /usr/ports/editors/joe
 make install clean
 
+# Zmena root hesla
 echo freebsd | pw mod user root -h 0
 
+# Instalace dalsich programu
 pkg install -y mc
 pkg install -y portupgrade
 pkg install -y nmap
