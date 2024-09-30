@@ -116,8 +116,7 @@ cp * ../ && cd ../
 rm -rf smejdil.github.io
 ```
 
-- Konfigurace webserveru Apache, zprovozneni modulu userdir
-
+- Konfigurace web serveru Apache, zprovozneni modulu userdir a SSL
 
 ```console
 --- httpd.conf-orig     2024-09-27 15:08:55.935249000 +0200
