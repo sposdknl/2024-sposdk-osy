@@ -9,9 +9,13 @@ Repository pro vyuku na SPOS DK
 
 - Vytvoření virtuálního serveru [https://spos.pfsense.cz](https://spos.pfsense.cz) pro potřeby výuky. Účel je vzdálená komunikace pomoci SSH a provoz Web serveru pro uzivatele [https://spos.pfsense.cz/~malyl/](https://spos.pfsense.cz/~malyl/).
 - Tato doména ma jen DNS zaznam typu AAAA, tudíž je doszupná jen z IPv6.
-- Ve škole IPv6 nemáme, ale řešením je pro web [Tor Browser](https://www.torproject.org/) nebo VPN od Cloudflare - WARP [https://one.one.one.one/](https://one.one.one.one/) - zde jsou [https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/](podrobnosti) k instalaci WARP v různých OS.
+- Ve škole IPv6 nemáme, ale řešením je pro web [Tor Browser](https://www.torproject.org/) nebo VPN od Cloudflare - WARP [https://one.one.one.one/](https://one.one.one.one/) - zde jsou [podrobnosti](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/) k instalaci WARP v různých OS.
 - Instalace pod Windows i v Linux Ubuntu je snadná a plně funkční.
 
+## Stručný popis zprovoznění web serveru spos.pfsense.cz
+
+- Instalace ve virtuálnám prostředí FreeBSD [bhyve](https://www.root.cz/clanky/virtualizace-pomoci-bhyve-s-vyuzitim-zfs-na-freebsd-13/) .
+- Instalace a konfigurace web serveru Apache
 
 ```console
 # time vm image provision a12a5c8c-7c33-11ef-acbb-40b034472324 spos-osy
