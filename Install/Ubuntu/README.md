@@ -27,11 +27,16 @@ diff -u /tmp/minimalize-package.deb /tmp/unminimalize-package.deb
 ## Automatická instalace OS Linux Ubuntu pomocí Vagrant
 
 - Seznamte se s nástrojem [Vagrant](https://www.vagrantup.com)
-- Najděte si Image na [Vagrant portale](https://portal.cloud.hashicorp.com/vagrant/discover)
-
+- Najděte si informace o Image na [Vagrant portale](https://portal.cloud.hashicorp.com/vagrant/discover)
+- Udělejte si klon tohoto projektu na Váš pracovní počítač
 - V PowerShell si vygenerujeme SSH klíče
 
 ```console
+mkdir work
+cd work
+git clone https://github.com/sposdknl/2024-sposdk-osy.git
+
+
 PS C:\Users\hp\work\2024-sposdk-osy\Install\Ubuntu> ssh-keygen.exe
 Generating public/private rsa key pair.
 Enter file in which to save the key (C:\Users\hp/.ssh/id_rsa):
