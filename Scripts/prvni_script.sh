@@ -4,12 +4,12 @@ LOG_AUTH="/var/log/auth.log"
 
 echo "Dnes je:" `date`
 
-echo "Pocet radku v logu"
+echo "Počet řádků v log souboru $LOG_AUTH"
 echo "---------------------------------------"
 
 cat $LOG_AUTH | wc -l
 
-echo "Pocet radku vyrazu deb v logu"
+echo "Počet řádků řetězce ssh v souboru $LOG_AUTH"
 echo "---------------------------------------"
 
 cat $LOG_AUTH | grep ssh | wc -l
