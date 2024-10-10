@@ -12,12 +12,12 @@ pro přihlášení na konzoli. Vagrant vyžaduje [VirtualBox-6.1.50-161033-Win.e
 
 ## Odkazy na instalované OS a systémy
 
-- [Ubuntu](https://www.ubuntu.cz/ziskat-ubuntu/stahnout-desktop/instalace/) Linux distribuce Ubuntu
+- [Ubuntu](https://www.ubuntu.cz/ziskat-ubuntu/stahnout-desktop/instalace/) je Linux distribuce
 
-- [FreeBSD](https://www.freebsd.org/releases/14.1R/announce/) FreeBSD OS unixového typu
+- [FreeBSD 14.1](https://www.freebsd.org/releases/14.1R/announce/) je OS unixového typu
 
-- [pfSnese](https://www.pfsense.org/download/) firewall vzužívající FreeBSD
+- [pfSnese](https://www.pfsense.org/download/) je firewall využívající FreeBSD
 
-- [Zabbix](https://www.zabbix.com/download) monitorovaci system
+- [Zabbix](https://www.zabbix.com/download) je monitorovaci system
 
 ...
