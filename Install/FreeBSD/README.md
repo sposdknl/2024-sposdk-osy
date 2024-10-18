@@ -13,19 +13,13 @@ pro získání souborů tohoto projektu a SSH terminal [putty-64bit-0.81-install
 pro přihlášení na konzoli. Vagrant vyžaduje [VirtualBox-6.1.50-161033-Win.exe](https://download.virtualbox.org/virtualbox/6.1.50/VirtualBox-6.1.50-161033-Win.exe) 
 
 ```console
-apt install vagrant
-nebo
-vagrant_2.4.1_windows_amd64.msi
-
 git clone https://github.com/smejdil/2024-sposdk-osy/
 cd Install/FreeBSD
 
-vagrant plugin install virtualbox
 vagrant plugin install vagrant-disksize
 vagrant plugin list
+
 vagrant-disksize (0.1.3, global)
-vagrant-libvirt (0.7.0, system)
-virtualbox (0.8.6, global)
 
 vagrant up
 vagrant ssh
