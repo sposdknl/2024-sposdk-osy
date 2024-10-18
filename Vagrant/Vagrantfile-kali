@@ -4,18 +4,18 @@ Vagrant.configure("2") do |config|
     config.ssh.insert_key = false
 
     config.vm.provider "virtualbox" do |v|
-        v.memory = 1024
-        v.cpus = 1
+        v.memory = 2048
+        v.cpus = 2
     end
 
-    config.vm.define "bastion" do |bastion|
-        bastion.vm.box = IMAGE_NAME
-        bastion.vm.network "forwarded_port", guest: 22, host: 2244, host_ip: "127.0.0.1"
-	bastion.vm.network "private_network", ip: "192.168.42.4"
-        bastion.vm.hostname = "bastion"
+    config.vm.define "kali" do |kali|
+        kali.vm.box = IMAGE_NAME
+        kali.vm.network "forwarded_port", guest: 22, host: 2204, host_ip: "127.0.0.1"
+	kali.vm.network "private_network", ip: "192.168.42.4"
+        kali.vm.hostname = "kali"
     end
 
-    config.vm.provision "file", source: "id_ed25519.pub", destination: "~/.ssh/me.pub"
+    config.vm.provision "file", source: "id_rsa.pub", destination: "~/.ssh/me.pub"
     config.vm.provision "shell", inline: <<-SHELL
     cat /home/vagrant/.ssh/me.pub >> /home/vagrant/.ssh/authorized_keys
 
