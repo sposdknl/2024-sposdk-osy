@@ -7,7 +7,7 @@ Repository pro vyuku na SPOS DK
 
 ## Server pro 3.I. OSY
 
-- Vytvoření virtuálního serveru [https://spos.pfsense.cz](https://spos.pfsense.cz) pro potřeby výuky. Účel je vzdálená komunikace pomoci SSH a provoz Web serveru pro uzivatele [https://spos.pfsense.cz/~malyl/](https://spos.pfsense.cz/~malylu/).
+- Vytvoření virtuálního serveru [https://spos.pfsense.cz](https://spos.pfsense.cz) pro potřeby výuky. Účel je vzdálená komunikace pomoci SSH a provoz Web serveru pro uzivatele [https://spos.pfsense.cz/~malylu/](https://spos.pfsense.cz/~malylu/).
 - Tato doména ma jen DNS zaznam typu AAAA, tudíž je doszupná jen z IPv6.
 - Ve škole IPv6 nemáme, ale řešením je pro web [Tor Browser](https://www.torproject.org/) nebo VPN od Cloudflare - WARP [https://one.one.one.one/](https://one.one.one.one/) - zde jsou [podrobnosti](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/) k instalaci WARP v různých OS.
 - Instalace pod Windows i v Linux Ubuntu je snadná a plně funkční.
