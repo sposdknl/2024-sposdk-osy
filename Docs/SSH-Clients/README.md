@@ -1,4 +1,4 @@
-# Server
+# SSH
 Repositories for teaching purposes at SPOS DK
 
 Repository pro vyuku na SPOS DK
@@ -33,7 +33,7 @@ and see what it is doing.
 
 ### SSH klienti mobil
 
-- Mobilní klient pro Android [JuiceSSH](https://juicessh.com/) - instalace snadná v rámci Google Play [JuiceSSH - SSH Client](https://play.google.com/store/apps/details?id=com.sonelli)juicessh]
+- Mobilní klient pro Android [JuiceSSH](https://juicessh.com/) - instalace snadná v rámci Google Play [JuiceSSH - SSH Client](https://play.google.com/store/apps/details?id=com.sonelli)
 - Mobilni klient pro iOS - Apple [Termius](https://termius.com/free-ssh-client-for-iphone) - instalace snadná v rámci App Store [Termius: Terminal & SSH client ](https://apps.apple.com/us/app/termius-terminal-ssh-client/id549039908)
 
 ...
