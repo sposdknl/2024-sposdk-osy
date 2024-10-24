@@ -3,7 +3,7 @@ Repositories for teaching purposes at SPOS DK
 
 Repository pro vyuku na SPOS DK
 
-![Server OSY AI](../../Images/server-osy.webp)
+![Server OSY AI](../../Images/server-osy.png)
 
 ## Externí server pro 3.I. OSY
 
@@ -76,8 +76,6 @@ Virtual Machine: spos-osy
     zroot/vms/spos-osy/disk0@20231123	990M	Thu Nov 23 22:47 2023
     zroot/vms/spos-osy@2024092701	80K	Fri Sep 27 16:44 2024
     zroot/vms/spos-osy/disk0@2024092701	1.19G	Fri Sep 27 16:44 2024
-
-
 ```
 
 - Konfigurace SSH, zakazujeme přihlášení pomocí hesla, omezujeme roota, povolujeme používání ssh klíčů atd.

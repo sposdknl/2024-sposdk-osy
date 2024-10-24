@@ -3,7 +3,7 @@ Repositories for teaching purposes at SPOS DK
 
 Repository pro vyuku na SPOS DK
 
-![SSH OSY AI](../../Images/osy-ssh4.webp)
+![SSH OSY AI](../../Images/osy-ssh4.png)
 
 ## SSH klienti, desktop a mobil
 
