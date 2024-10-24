@@ -5,16 +5,17 @@ Repository pro vyuku na SPOS DK
 
 ![Server OSY AI](../../Images/server-osy.webp)
 
-## Server pro 3.I. OSY
+## Externí server pro 3.I. OSY
 
-- Vytvoření virtuálního serveru [https://spos.pfsense.cz](https://spos.pfsense.cz) pro potřeby výuky. Účel je vzdálená komunikace pomoci SSH a provoz Web serveru pro uzivatele [https://spos.pfsense.cz/~malylu/](https://spos.pfsense.cz/~malylu/).
-- Tato doména ma jen DNS zaznam typu AAAA, tudíž je doszupná jen z IPv6.
-- Ve škole IPv6 nemáme, ale řešením je pro web [Tor Browser](https://www.torproject.org/) nebo VPN od Cloudflare - WARP [https://one.one.one.one/](https://one.one.one.one/) - zde jsou [podrobnosti](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/) k instalaci WARP v různých OS.
+- Virtuální server [https://spos.pfsense.cz](https://spos.pfsense.cz) vznikl pro potřeby výuky. Účel je vzdálená komunikace pomocí SSH a provoz web serveru [Apache](https://httpd.apache.org/) pro uživatele např. [https://spos.pfsense.cz/~malylu/](https://spos.pfsense.cz/~malylu/).
+- Tato doména má ovšem jen DNS záznam typu AAAA, tudíž je dostupná jen ze sítě s podporou IPv6.
+- Ve škole IPv6 nemáme, ale řešením je pro webový přístup [Tor Browser](https://www.torproject.org/) nebo pro komunikaci např. pomocí SSH - VPN od Cloudflare - WARP [https://one.one.one.one/](https://one.one.one.one/) - zde jsou [podrobnosti](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/) k instalaci WARP v různých OS.
 - Instalace pod Windows i v Linux Ubuntu je snadná a plně funkční.
 
-## Stručný popis zprovoznění web serveru spos.pfsense.cz
+## Stručný popis o web serveru spos.pfsense.cz
 
 - Instalace ve virtuálnám prostředí FreeBSD [bhyve](https://www.root.cz/clanky/virtualizace-pomoci-bhyve-s-vyuzitim-zfs-na-freebsd-13/) .
+- Konfigurace SSH serveru
 - Instalace a konfigurace web serveru Apache
 
 ```console
@@ -30,22 +31,22 @@ Starting spos-osy
   * found guest in /vms/spos-osy
   * booting...
 
-# vm list 
+# vm list | grep bhyveload
 NAME       DATASTORE  LOADER     CPU  MEMORY  VNC  AUTO     STATE
 fbsd14     default    bhyveload  1    256M    -    No       Stopped
-spos-osy   default    bhyveload  1    256M    -    No       Running (11568)
+spos-osy   default    bhyveload  2    1024M   -    Yes [3]  Running (58627)
 
 # vm info spos-osy
 ------------------------
 Virtual Machine: spos-osy
 ------------------------
-  state: running (11568)
+  state: running (58627)
   datastore: default
   loader: bhyveload
   uuid: 5b843c4f-7ccf-11ef-ab57-40b034472324
-  cpu: 1
-  memory: 256M
-  memory-resident: 110059520 (104.960M)
+  cpu: 2
+  memory: 1024M
+  memory-resident: 186126336 (177.503M)
 
   console-ports
     com1: /dev/nmdm-spos-osy.1B
@@ -68,12 +69,64 @@ Virtual Machine: spos-osy
     options: -
     system-path: /dev/zvol/zroot/vms/spos-osy/disk0
     bytes-size: 17179869184 (16.000G)
-    bytes-used: 4883787776 (4.548G)
+    bytes-used: 7895998464 (7.353G)
 
   snapshots
     zroot/vms/spos-osy@20231123	80K	Thu Nov 23 22:47 2023
-    zroot/vms/spos-osy/disk0@20231123	970M	Thu Nov 23 22:47 2023
+    zroot/vms/spos-osy/disk0@20231123	990M	Thu Nov 23 22:47 2023
+    zroot/vms/spos-osy@2024092701	80K	Fri Sep 27 16:44 2024
+    zroot/vms/spos-osy/disk0@2024092701	1.19G	Fri Sep 27 16:44 2024
+
+
 ```
+
+- Konfigurace SSH, zakazujeme přihlášení pomocí hesla, omezujeme roota, povolujeme používání ssh klíčů atd.
+
+```console
+--- sshd_config-orig    2024-10-17 18:36:47.986939000 +0200
++++ sshd_config 2024-10-23 09:18:11.779304000 +0200
+@@ -32,12 +32,12 @@
+ # Authentication:
+ 
+ #LoginGraceTime 2m
+-#PermitRootLogin no
++PermitRootLogin no
+ #StrictModes yes
+ #MaxAuthTries 6
+ #MaxSessions 10
+ 
+-#PubkeyAuthentication yes
++PubkeyAuthentication yes
+ 
+ # The default is to check both .ssh/authorized_keys and .ssh/authorized_keys2
+ # but this is overridden so installations will only check .ssh/authorized_keys
+@@ -58,7 +58,7 @@
+ 
+ # Change to yes to enable built-in password authentication.
+ # Note that passwords may also be accepted via KbdInteractiveAuthentication.
+-#PasswordAuthentication no
++PasswordAuthentication no
+ #PermitEmptyPasswords no
+ 
+ # Change to no to disable PAM authentication
+@@ -85,7 +85,7 @@
+ # and KbdInteractiveAuthentication to 'no'.
+ #UsePAM yes
+ 
+-#AllowAgentForwarding yes
++AllowAgentForwarding yes
+ #AllowTcpForwarding yes
+ #GatewayPorts no
+ #X11Forwarding no
+@@ -119,3 +119,6 @@
+ #      AllowTcpForwarding no
+ #      PermitTTY no
+ #      ForceCommand cvs server
++
++ChallengeResponseAuthentication no
++UsePAM no
+```
+
 - Instalace webserveru Apache 2.4 z FreeBSD packages
 
 ```console
@@ -116,7 +169,7 @@ cp * ../ && cd ../
 rm -rf smejdil.github.io
 ```
 
-- Konfigurace web serveru Apache, zprovozneni modulu userdir a SSL
+- Konfigurace web serveru Apache, zprovozneni modulu userdir a SSL pro použití https://
 
 ```console
 --- httpd.conf-orig     2024-09-27 15:08:55.935249000 +0200
