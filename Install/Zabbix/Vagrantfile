@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
         zabbix.cpus = 2
     end
 
-    config.vm.define "ubuntu" do |ubuntu|
+    config.vm.define "zabbix" do |zabbix|
         zabbix.vm.box = IMAGE_NAME
         zabbix.vm.network "forwarded_port", guest: 22, host: 2202, host_ip: "127.0.0.1"
 	zabbix.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
