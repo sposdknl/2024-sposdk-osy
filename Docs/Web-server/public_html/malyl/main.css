@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+	background: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+}
+
+#top {
+    background: url(background2.jpg) no-repeat center #FFFFFF;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 5px;
+    font-size: 15px;
+}
+
+#top img {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	display: block;
+	padding: 0 0 40px 0;
+}
+
+#top .button {
+	display: inline-block;
+	padding: 15px;
+	width: 215px;
+	background-image: linear-gradient(#09aa0e, #077b0a);
+	border: 1px solid #077b0a; 
+	border-radius: 35px;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 5px;
+	cursor: pointer;
+	text-decoration:none;
+	
+}
+#top .button:focus {
+    outline: 0;
+}
+
+
+#text {
+	background: #FFFFFF;
+}
+
+#text h1 {
+	font-weight: 300;
+	padding: 20px 5px;
+	margin: 0;
+	font-size: 24px;
+}
+
+#text p {
+	margin: 0;
+	padding: 0 2% 9%;
+	color: #000000;
+	font-size: 14px;
+}
+
+#text p strong {
+	color: #fff000;
+}
+
+a.white-link{
+	color:#fff;
+}
+
+@media only screen and (min-width: 380px) {
+	#top {
+		font-size: 18px;
+	}
+
+	#top .button {
+		width: 320px;
+		font-size: 19px;
+		margin-bottom: 10px;
+	}
+
+	#text h1 {
+		font-size: 29px;
+		padding: 20px 10px;
+	}
+
+	#text p {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	#top .button {
+		width: 330px;
+		padding: 20px;
+	}
+
+	#text h1 {
+		font-size: 38px;
+		padding: 30px 10px;
+	}
+
+	#text p {
+		font-size: 18px;
+	}
+
+	#top img {
+		width: 60%;
+		padding: 0 0 60px 0;
+	}	
+}
+
+@media only screen and (min-width: 600px) {
+	#text h1 {
+		font-size: 42px;
+	}
+} 
+
+@media only screen and (min-width: 700px) {
+	#top {
+		padding: 100px 5px;
+	}
+	#top .button {
+		width: 360px;
+	}
+
+	#top img {
+		width: 400px;
+		padding: 0 0 50px 0
+	}
+
+	#text p {
+		padding: 0 15px 80px;
+	}
+}

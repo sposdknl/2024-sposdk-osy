@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hádej číslo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .ax-cnt {
+            width: 500px;
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .ax-seg {
+            height: 10px;
+            flex: 1;
+            background-color: lightgray;
+        }
+
+        .ax-seg.guess {
+            background-color: black;
+        }
+
+        input[type="number"] {
+            width: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hádej číslo od 1 do 100</h1>
+    <p id="msg">Zadej svůj tip</p>
+    <input type="number" id="gss" min="1" max="100">
+    <button onclick="mkGss()">Tipni</button>
+
+    <div class="ax-cnt" id="ax">
+    </div>
+
+    <script>
+        const tgt = Math.floor(Math.random() * 100) + 1; // Cílové číslo
+
+        function crtAx() {
+            const axCnt = document.getElementById('ax');
+            axCnt.innerHTML = '';
+            for (let i = 1; i <= 100; i++) {
+                const seg = document.createElement('div');
+                seg.classList.add('ax-seg');
+                axCnt.appendChild(seg);
+            }
+        }
+
+        function mkGss() {
+            const gssInp = document.getElementById('gss');
+            const gss = parseInt(gssInp.value);
+            const msg = document.getElementById('msg');
+
+            if (gss === tgt) {
+                msg.textContent = 'Gratulujeme, uhodl jsi správné číslo!';
+            } else if (gss < tgt) {
+                msg.textContent = 'Zkus větší číslo.';
+            } else {
+                msg.textContent = 'Zkus menší číslo.';
+            }
+
+            // aktualizece osy
+            const segs = document.querySelectorAll('.ax-seg');
+            segs.forEach((seg, idx) => {
+                seg.classList.toggle('guess', idx < gss);
+            });
+        }
+
+        crtAx();
+    </script>
+
+    <!-- Zkratky:
+        tgt: vysledne číslo
+        axCnt: container osy
+        seg: segment osy
+        gss: guess
+        gssInp: vstup tipu
+        msg: message
+        segs: pole segmentů osy
+        idx: index segmentu
+    -->
+</body>
+</html>
