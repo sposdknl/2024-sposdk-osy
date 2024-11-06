@@ -10,3 +10,4 @@ Repository pro vyuku na SPOS DK
 - [Kovařík](https://spos.pfsense.cz/~kovarikr) - HTML5 - Moje úžasná webová stránka
 - [Roháček](https://spos.pfsense.cz/~rohacekd) - HTML - špatné kódování stránky
 - [Suk](https://spos.pfsense.cz/~sukm) - HTML - Vitej na mem Webu
+- [Lasíková](https://spos.pfsense.cz/~lasikoval) - HTML - Vítejte na stránce Lucie Lasíkové!
