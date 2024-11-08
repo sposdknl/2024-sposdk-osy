@@ -1,0 +1,968 @@
+Nov 23 14:57:43 fbsd14 newsyslog[695]: logfile first created
+Nov 23 14:57:43 fbsd14 sshd[821]: Server listening on :: port 22.
+Nov 23 14:57:43 fbsd14 sshd[821]: Server listening on 0.0.0.0 port 22.
+Nov 23 14:57:55 fbsd14 login[837]: login on ttyu0 as root
+Nov 23 14:57:55 fbsd14 login[837]: ROOT LOGIN (root) ON ttyu0
+Nov 23 14:59:47 fbsd14 login[844]: login on ttyu0 as root
+Nov 23 14:59:47 fbsd14 login[844]: ROOT LOGIN (root) ON ttyu0
+Nov 23 15:00:47 fbsd14 sshd[821]: Received signal 15; terminating.
+Nov 23 15:02:13 fbsd14 sshd[802]: Server listening on :: port 22.
+Nov 23 15:02:13 fbsd14 sshd[802]: Server listening on 0.0.0.0 port 22.
+Nov 23 15:07:18 fbsd14 sshd[802]: Received signal 15; terminating.
+Nov 23 15:14:51 fbsd14 sshd[800]: Server listening on :: port 22.
+Nov 23 15:14:51 fbsd14 sshd[800]: Server listening on 0.0.0.0 port 22.
+Nov 23 15:37:13 fbsd14 sshd[800]: Received signal 15; terminating.
+Nov 23 15:38:30 fbsd14 sshd[806]: Server listening on :: port 22.
+Nov 23 15:38:30 fbsd14 sshd[806]: Server listening on 0.0.0.0 port 22.
+Nov 23 16:20:17 fbsd14 login[822]: login on ttyu0 as root
+Nov 23 16:20:17 fbsd14 login[822]: ROOT LOGIN (root) ON ttyu0
+Nov 23 16:25:58 fbsd14 sshd[826]: Server listening on :: port 22.
+Nov 23 16:25:58 fbsd14 sshd[826]: Server listening on 0.0.0.0 port 22.
+Nov 23 16:26:48 fbsd14 sshd[826]: Received signal 15; terminating.
+Nov 23 16:28:00 fbsd14 sshd[816]: Server listening on :: port 22.
+Nov 23 16:28:00 fbsd14 sshd[816]: Server listening on 0.0.0.0 port 22.
+Nov 23 16:29:03 fbsd14 sshd[816]: Received signal 15; terminating.
+Nov 23 16:32:35 fbsd14 sshd[816]: Server listening on :: port 22.
+Nov 23 16:32:35 fbsd14 sshd[816]: Server listening on 0.0.0.0 port 22.
+Nov 23 16:48:08 fbsd14 sshd[816]: Received signal 15; terminating.
+Nov 23 16:54:57 fbsd14 sshd[820]: Server listening on :: port 22.
+Nov 23 16:54:57 fbsd14 sshd[820]: Server listening on 0.0.0.0 port 22.
+Nov 23 19:40:35 fbsd14 sshd[1509]: Connection closed by 192.168.10.3 port 58652 [preauth]
+Nov 23 19:40:48 fbsd14 sshd[1511]: Postponed keyboard-interactive for malyl from 192.168.10.3 port 53062 ssh2 [preauth]
+Nov 23 19:40:50 fbsd14 sshd[1511]: Postponed keyboard-interactive/pam for malyl from 192.168.10.3 port 53062 ssh2 [preauth]
+Nov 23 19:40:50 fbsd14 sshd[1511]: Accepted keyboard-interactive/pam for malyl from 192.168.10.3 port 53062 ssh2
+Nov 23 19:40:56 fbsd14 su[1520]: malyl to root on /dev/pts/0
+Nov 23 19:41:02 fbsd14 sshd[1514]: Received disconnect from 192.168.10.3 port 53062:11: disconnected by user
+Nov 23 19:41:02 fbsd14 sshd[1514]: Disconnected from user malyl 192.168.10.3 port 53062
+Nov 23 19:41:03 fbsd14 sshd[1523]: Postponed keyboard-interactive for malyl from 192.168.10.3 port 53172 ssh2 [preauth]
+Nov 23 19:41:06 fbsd14 sshd[1523]: Postponed keyboard-interactive/pam for malyl from 192.168.10.3 port 53172 ssh2 [preauth]
+Nov 23 19:41:06 fbsd14 sshd[1523]: Accepted keyboard-interactive/pam for malyl from 192.168.10.3 port 53172 ssh2
+Nov 23 19:41:14 fbsd14 sshd[1533]: Connection closed by authenticating user malyl ::1 port 34286 [preauth]
+Nov 23 19:42:15 fbsd14 sshd[1526]: Received disconnect from 192.168.10.3 port 53172:11: disconnected by user
+Nov 23 19:42:15 fbsd14 sshd[1526]: Disconnected from user malyl 192.168.10.3 port 53172
+Nov 23 19:42:16 fbsd14 sshd[1537]: Postponed keyboard-interactive for malyl from 192.168.10.3 port 34182 ssh2 [preauth]
+Nov 23 19:42:18 fbsd14 sshd[1537]: Connection closed by authenticating user malyl 192.168.10.3 port 34182 [preauth]
+Nov 23 19:42:24 fbsd14 sshd[1540]: Postponed keyboard-interactive for malyl from 192.168.10.3 port 41586 ssh2 [preauth]
+Nov 23 19:42:27 fbsd14 sshd[1540]: Postponed keyboard-interactive/pam for malyl from 192.168.10.3 port 41586 ssh2 [preauth]
+Nov 23 19:42:27 fbsd14 sshd[1540]: Accepted keyboard-interactive/pam for malyl from 192.168.10.3 port 41586 ssh2
+Nov 23 19:42:37 fbsd14 sshd[1543]: Received disconnect from 192.168.10.3 port 41586:11: disconnected by user
+Nov 23 19:42:37 fbsd14 sshd[1543]: Disconnected from user malyl 192.168.10.3 port 41586
+Nov 23 19:42:38 fbsd14 sshd[1550]: Postponed keyboard-interactive for malyl from 192.168.10.3 port 58668 ssh2 [preauth]
+Nov 23 19:42:45 fbsd14 sshd[1550]: Postponed keyboard-interactive/pam for malyl from 192.168.10.3 port 58668 ssh2 [preauth]
+Nov 23 19:42:45 fbsd14 sshd[1550]: Accepted keyboard-interactive/pam for malyl from 192.168.10.3 port 58668 ssh2
+Nov 23 19:42:55 fbsd14 su[1561]: malyl to root on /dev/pts/0
+Nov 23 19:48:16 fbsd14 su[1716]: malyl to root on /dev/pts/0
+Nov 23 19:49:20 fbsd14 sshd[1553]: Received disconnect from 192.168.10.3 port 58668:11: disconnected by user
+Nov 23 19:49:20 fbsd14 sshd[1553]: Disconnected from user malyl 192.168.10.3 port 58668
+Nov 23 19:49:23 fbsd14 sshd[1881]: Postponed keyboard-interactive for malyl from 192.168.10.3 port 56236 ssh2 [preauth]
+Nov 23 19:49:28 fbsd14 sshd[1881]: Postponed keyboard-interactive/pam for malyl from 192.168.10.3 port 56236 ssh2 [preauth]
+Nov 23 19:49:28 fbsd14 sshd[1881]: Accepted keyboard-interactive/pam for malyl from 192.168.10.3 port 56236 ssh2
+Nov 23 19:50:05 fbsd14 su[1985]: malyl to root on /dev/pts/0
+Nov 23 19:50:41 fbsd14 su[2093]: malyl to root on /dev/pts/0
+Nov 23 19:53:21 fbsd14 sshd[1884]: Received disconnect from 192.168.10.3 port 56236:11: disconnected by user
+Nov 23 19:53:21 fbsd14 sshd[1884]: Disconnected from user malyl 192.168.10.3 port 56236
+Nov 23 20:15:24 fbsd14 sshd[2350]: Postponed keyboard-interactive for malyl from 192.168.10.3 port 51634 ssh2 [preauth]
+Nov 23 20:15:27 fbsd14 sshd[2350]: Postponed keyboard-interactive/pam for malyl from 192.168.10.3 port 51634 ssh2 [preauth]
+Nov 23 20:15:27 fbsd14 sshd[2350]: Accepted keyboard-interactive/pam for malyl from 192.168.10.3 port 51634 ssh2
+Nov 23 20:15:34 fbsd14 su[2403]: malyl to root on /dev/pts/0
+Nov 23 20:15:47 fbsd14 sshd[2353]: Received disconnect from 192.168.10.3 port 51634:11: disconnected by user
+Nov 23 20:15:47 fbsd14 sshd[2353]: Disconnected from user malyl 192.168.10.3 port 51634
+Nov 23 20:16:05 fbsd14 sshd[820]: Received signal 15; terminating.
+Nov 23 20:20:05 fbsd14 sshd[834]: Server listening on :: port 22.
+Nov 23 20:20:05 fbsd14 sshd[834]: Server listening on 0.0.0.0 port 22.
+Nov 23 20:20:15 fbsd14 sshd[853]: Postponed keyboard-interactive for malyl from 192.168.10.3 port 48554 ssh2 [preauth]
+Nov 23 20:20:18 fbsd14 sshd[853]: Postponed keyboard-interactive/pam for malyl from 192.168.10.3 port 48554 ssh2 [preauth]
+Nov 23 20:20:18 fbsd14 sshd[853]: Accepted keyboard-interactive/pam for malyl from 192.168.10.3 port 48554 ssh2
+Nov 23 20:20:54 fbsd14 sshd[856]: Received disconnect from 192.168.10.3 port 48554:11: disconnected by user
+Nov 23 20:20:54 fbsd14 sshd[856]: Disconnected from user malyl 192.168.10.3 port 48554
+Nov 23 20:20:55 fbsd14 sshd[899]: Accepted publickey for malyl from 192.168.10.3 port 38560 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov 23 20:21:00 fbsd14 su[910]: malyl to root on /dev/pts/0
+Nov 23 20:21:07 fbsd14 sshd[901]: Received disconnect from 192.168.10.3 port 38560:11: disconnected by user
+Nov 23 20:21:07 fbsd14 sshd[901]: Disconnected from user malyl 192.168.10.3 port 38560
+Nov 23 20:21:28 fbsd14 sshd[834]: Received signal 15; terminating.
+Nov 23 20:24:43 fbsd14 sshd[818]: Server listening on :: port 22.
+Nov 23 20:24:43 fbsd14 sshd[818]: Server listening on 0.0.0.0 port 22.
+Nov 23 20:24:43 fbsd14 sshd[837]: Accepted publickey for malyl from 192.168.10.3 port 47480 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov 23 20:24:47 fbsd14 su[845]: malyl to root on /dev/pts/0
+Nov 23 20:31:43 fbsd14 sshd[839]: Received disconnect from 192.168.10.3 port 47480:11: disconnected by user
+Nov 23 20:31:43 fbsd14 sshd[839]: Disconnected from user malyl 192.168.10.3 port 47480
+Nov 23 20:39:12 fbsd14 sshd[985]: Accepted publickey for malyl from 192.168.10.3 port 34790 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov 23 20:39:13 fbsd14 sshd[987]: Received disconnect from 192.168.10.3 port 34790:11: disconnected by user
+Nov 23 20:39:13 fbsd14 sshd[987]: Disconnected from user malyl 192.168.10.3 port 34790
+Nov 23 20:51:51 fbsd14 sshd[1041]: Accepted publickey for malyl from 192.168.10.3 port 44094 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov 23 20:53:07 fbsd14 sshd[1043]: Received disconnect from 192.168.10.3 port 44094:11: disconnected by user
+Nov 23 20:53:07 fbsd14 sshd[1043]: Disconnected from user malyl 192.168.10.3 port 44094
+Nov 23 22:05:51 fbsd14 sshd[1561]: Connection closed by 192.168.5.1 port 38555 [preauth]
+Nov 23 22:20:47 fbsd14 sshd[1681]: Connection closed by 192.168.5.187 port 58602
+Nov 23 22:20:48 fbsd14 sshd[1682]: error: Protocol major versions differ: 2 vs. 1
+Nov 23 22:20:48 fbsd14 sshd[1683]: error: Protocol major versions differ: 2 vs. 1
+Nov 23 22:20:48 fbsd14 sshd[1684]: Unable to negotiate with 192.168.5.187 port 43428: no matching host key type found. Their offer: ssh-dss [preauth]
+Nov 23 22:20:48 fbsd14 sshd[1686]: Unable to negotiate with 192.168.5.187 port 43432: no matching host key type found. Their offer: ssh-rsa [preauth]
+Nov 23 22:20:48 fbsd14 sshd[1688]: Connection closed by 192.168.5.187 port 43448 [preauth]
+Nov 23 22:20:48 fbsd14 sshd[1690]: Unable to negotiate with 192.168.5.187 port 43464: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Nov 23 22:20:48 fbsd14 sshd[1692]: Unable to negotiate with 192.168.5.187 port 43478: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Nov 23 22:20:48 fbsd14 sshd[1694]: Connection closed by 192.168.5.187 port 43480 [preauth]
+Nov 23 22:41:26 fbsd14 sshd[818]: Received signal 15; terminating.
+Dec  6 21:00:02 fbsd14 sshd[851]: Server listening on :: port 22.
+Dec  6 21:00:02 fbsd14 sshd[851]: Server listening on 0.0.0.0 port 22.
+Dec  6 21:01:18 fbsd14 sshd[871]: Accepted publickey for malyl from 192.168.10.3 port 47192 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Dec  6 21:01:24 fbsd14 su[879]: malyl to root on /dev/pts/0
+Dec  6 21:04:52 fbsd14 sshd[851]: Received signal 15; terminating.
+Dec  6 21:04:52 fbsd14 sshd[8289]: Server listening on :: port 22.
+Dec  6 21:04:52 fbsd14 sshd[8289]: Server listening on 0.0.0.0 port 22.
+Dec  6 21:05:41 fbsd14 sshd[818]: Server listening on :: port 22.
+Dec  6 21:05:41 fbsd14 sshd[818]: Server listening on 0.0.0.0 port 22.
+Dec  6 21:06:17 fbsd14 sshd[837]: Accepted publickey for malyl from 192.168.10.3 port 38266 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Dec  6 21:06:20 fbsd14 su[845]: malyl to root on /dev/pts/0
+Dec  6 21:07:03 fbsd14 sshd[818]: Received signal 15; terminating.
+Dec 15 15:57:44 fbsd14 sshd[835]: Server listening on :: port 22.
+Dec 15 15:57:44 fbsd14 sshd[835]: Server listening on 0.0.0.0 port 22.
+Dec 15 15:58:09 fbsd14 sshd[854]: Connection closed by 192.168.5.181 port 59772 [preauth]
+Dec 15 15:58:18 fbsd14 sshd[856]: Accepted publickey for malyl from 192.168.5.181 port 59782 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Dec 15 15:58:22 fbsd14 su[863]: BAD SU malyl to root on /dev/pts/0
+Dec 15 15:58:25 fbsd14 su[865]: malyl to root on /dev/pts/0
+Dec 15 15:59:18 fbsd14 sshd[835]: Received signal 15; terminating.
+Dec 15 15:59:18 fbsd14 sshd[3614]: Server listening on :: port 22.
+Dec 15 15:59:18 fbsd14 sshd[3614]: Server listening on 0.0.0.0 port 22.
+Dec 15 16:00:40 fbsd14 sshd[820]: Server listening on :: port 22.
+Dec 15 16:00:40 fbsd14 sshd[820]: Server listening on 0.0.0.0 port 22.
+Dec 15 16:00:47 fbsd14 sshd[839]: Accepted publickey for malyl from 192.168.5.181 port 47276 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Dec 15 16:00:51 fbsd14 su[847]: malyl to root on /dev/pts/0
+Dec 15 16:02:59 fbsd14 sshd[841]: Received disconnect from 192.168.5.181 port 47276:11: disconnected by user
+Dec 15 16:02:59 fbsd14 sshd[841]: Disconnected from user malyl 192.168.5.181 port 47276
+Dec 15 16:03:07 fbsd14 sshd[820]: Received signal 15; terminating.
+Mar 22 13:47:29 fbsd14 sshd[835]: Server listening on :: port 22.
+Mar 22 13:47:29 fbsd14 sshd[835]: Server listening on 0.0.0.0 port 22.
+Mar 22 13:48:03 fbsd14 sshd[854]: Accepted publickey for malyl from 192.168.5.200 port 44674 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Mar 22 13:48:07 fbsd14 su[862]: malyl to root on /dev/pts/0
+Mar 22 13:49:59 fbsd14 sshd[835]: Received signal 15; terminating.
+Mar 22 13:49:59 fbsd14 sshd[5901]: Server listening on :: port 22.
+Mar 22 13:49:59 fbsd14 sshd[5901]: Server listening on 0.0.0.0 port 22.
+Mar 22 13:50:04 fbsd14 sshd[5901]: Received signal 15; terminating.
+Mar 22 13:50:23 fbsd14 sshd[818]: Server listening on :: port 22.
+Mar 22 13:50:23 fbsd14 sshd[818]: Server listening on 0.0.0.0 port 22.
+Mar 22 13:50:24 fbsd14 sshd[837]: Accepted publickey for malyl from 192.168.5.200 port 60402 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Mar 22 13:50:29 fbsd14 su[845]: malyl to root on /dev/pts/0
+Mar 22 13:51:30 fbsd14 su[1172]: malyl to root on /dev/pts/0
+Mar 22 13:52:04 fbsd14 shutdown[1416]: power-down by malyl: 
+Mar 22 13:52:04 fbsd14 sshd[818]: Received signal 15; terminating.
+Mar 31 13:42:56 fbsd14 sshd[835]: Server listening on :: port 22.
+Mar 31 13:42:56 fbsd14 sshd[835]: Server listening on 0.0.0.0 port 22.
+Mar 31 13:43:54 fbsd14 sshd[854]: Accepted publickey for malyl from 192.168.10.3 port 51086 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Mar 31 13:43:59 fbsd14 su[984]: malyl to root on /dev/pts/0
+Mar 31 13:45:52 fbsd14 sshd[835]: Received signal 15; terminating.
+Mar 31 13:45:52 fbsd14 sshd[4436]: Server listening on :: port 22.
+Mar 31 13:45:52 fbsd14 sshd[4436]: Server listening on 0.0.0.0 port 22.
+Mar 31 13:47:09 fbsd14 sshd[820]: Server listening on :: port 22.
+Mar 31 13:47:09 fbsd14 sshd[820]: Server listening on 0.0.0.0 port 22.
+Mar 31 13:47:33 fbsd14 sshd[839]: Accepted publickey for malyl from 192.168.10.3 port 47494 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Mar 31 13:47:59 fbsd14 sshd[841]: Received disconnect from 192.168.10.3 port 47494:11: disconnected by user
+Mar 31 13:47:59 fbsd14 sshd[841]: Disconnected from user malyl 192.168.10.3 port 47494
+Mar 31 13:48:19 fbsd14 sshd[820]: Received signal 15; terminating.
+Sep 26 19:24:22 fbsd14 sshd[841]: Server listening on :: port 22.
+Sep 26 19:24:22 fbsd14 sshd[841]: Server listening on 0.0.0.0 port 22.
+Sep 26 19:25:11 fbsd14 sshd[862]: Accepted publickey for malyl from 192.168.10.3 port 38710 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Sep 26 19:25:31 fbsd14 su[1005]: malyl to root on /dev/pts/0
+Sep 26 20:14:27 fbsd14 sshd[828]: Server listening on :: port 22.
+Sep 26 20:14:27 fbsd14 sshd[828]: Server listening on 0.0.0.0 port 22.
+Sep 26 20:14:37 fbsd14 sshd[847]: Accepted publickey for malyl from 192.168.10.3 port 48014 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Sep 26 20:14:43 fbsd14 su[976]: malyl to root on /dev/pts/0
+Sep 26 20:15:30 fbsd14 sshd[828]: Received signal 15; terminating.
+Sep 26 20:15:30 fbsd14 sshd[16452]: Server listening on :: port 22.
+Sep 26 20:15:30 fbsd14 sshd[16452]: Server listening on 0.0.0.0 port 22.
+Sep 26 20:16:15 fbsd14 sshd[16452]: Received signal 15; terminating.
+Sep 27 14:52:42 fbsd14 sshd[843]: Server listening on :: port 22.
+Sep 27 14:52:42 fbsd14 sshd[843]: Server listening on 0.0.0.0 port 22.
+Sep 27 14:58:31 fbsd14 sshd[872]: Accepted publickey for malyl from 192.168.5.207 port 37658 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Sep 27 14:58:47 fbsd14 su[881]: malyl to root on /dev/pts/0
+Sep 27 15:00:32 spos sshd[830]: Server listening on :: port 22.
+Sep 27 15:00:32 spos sshd[830]: Server listening on 0.0.0.0 port 22.
+Sep 27 15:00:35 spos sshd[849]: Accepted publickey for malyl from 192.168.5.207 port 58734 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Sep 27 15:00:42 spos su[978]: malyl to root on /dev/pts/0
+Sep 27 15:16:44 spos sshd[1888]: Accepted publickey for malyl from 192.168.5.207 port 42742 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Sep 27 15:54:56 spos sshd[1890]: Received disconnect from 192.168.5.207 port 42742:11: disconnected by user
+Sep 27 16:41:39 spos sshd[851]: Received disconnect from 192.168.5.207 port 58734:11: disconnected by user
+Sep 27 16:41:39 spos sshd[851]: Disconnected from user malyl 192.168.5.207 port 58734
+Sep 27 16:44:30 spos sshd[830]: Received signal 15; terminating.
+Sep 27 16:44:58 spos sshd[737]: Server listening on :: port 22.
+Sep 27 16:44:58 spos sshd[737]: Server listening on 0.0.0.0 port 22.
+Sep 27 21:54:40 spos sshd[1129]: Accepted keyboard-interactive/pam for malyl from 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 65180 ssh2
+Sep 27 21:56:36 spos su[1341]: malyl to root on /dev/pts/0
+Sep 27 22:01:46 spos sshd[1750]: Accepted keyboard-interactive/pam for malyl from 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 45643 ssh2
+Sep 27 22:01:46 spos sshd[1753]: Received disconnect from 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 45643:11: disconnected by user
+Sep 27 22:01:46 spos sshd[1753]: Disconnected from user malyl 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 45643
+Sep 27 22:02:14 spos su[1777]: malyl to root on /dev/pts/0
+Sep 27 22:29:41 spos sshd[1132]: Received disconnect from 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 65180:11: disconnected by user
+Sep 27 22:29:41 spos sshd[1132]: Disconnected from user malyl 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 65180
+Sep 27 22:29:47 spos sshd[2133]: Accepted keyboard-interactive/pam for malyl from 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 17178 ssh2
+Sep 27 22:29:50 spos su[2140]: in prompt_tty(): caught signal 2
+Sep 27 22:36:09 spos sshd[2136]: Received disconnect from 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 17178:11: disconnected by user
+Sep 27 22:36:09 spos sshd[2136]: Disconnected from user malyl 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 17178
+Oct  1 19:03:09 spos sshd[722]: Server listening on :: port 22.
+Oct  1 19:03:09 spos sshd[722]: Server listening on 0.0.0.0 port 22.
+Oct  2 08:09:01 spos sshd[2123]: Connection closed by authenticating user root 2a01:a040:2002:8051:42b0:34ff:fe47:2324 port 55054 [preauth]
+Oct  2 08:09:31 spos sshd[2126]: Accepted publickey for malyl from 2a01:a040:2002:8051:3eb0:9ca4:1c23:b15a port 47640 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct  2 08:09:37 spos su[2251]: malyl to root on /dev/pts/0
+Oct  2 18:12:59 spos sshd[2128]: Received disconnect from 2a01:a040:2002:8051:3eb0:9ca4:1c23:b15a port 47640:11: disconnected by user
+Oct  2 18:12:59 spos sshd[2128]: Disconnected from user malyl 2a01:a040:2002:8051:3eb0:9ca4:1c23:b15a port 47640
+Oct 17 18:28:33 spos sshd[35207]: Accepted publickey for malyl from 2a01:a040:2002:8051:8fb8:824c:d8d0:fa7b port 59954 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 17 18:28:40 spos su[35332]: malyl to root on /dev/pts/0
+Oct 17 18:36:21 spos sshd[36506]: Accepted keyboard-interactive/pam for malyl from 2a01:a040:2002:8051:5a9c:fcff:fe0c:be2e port 39200 ssh2
+Oct 17 18:36:21 spos sshd[36509]: Received disconnect from 2a01:a040:2002:8051:5a9c:fcff:fe0c:be2e port 39200:11: disconnected by user
+Oct 17 18:36:21 spos sshd[36509]: Disconnected from user malyl 2a01:a040:2002:8051:5a9c:fcff:fe0c:be2e port 39200
+Oct 17 18:42:36 spos sshd[36681]: Accepted publickey for malyl from 2a01:a040:2002:8051:8fb8:824c:d8d0:fa7b port 57178 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 17 18:42:56 spos sshd[36683]: Received disconnect from 2a01:a040:2002:8051:8fb8:824c:d8d0:fa7b port 57178:11: disconnected by user
+Oct 17 18:42:59 spos sshd[36689]: Accepted publickey for malyl from 2a01:a040:2002:8051:8fb8:824c:d8d0:fa7b port 39330 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 17 18:43:24 spos su[36696]: malyl to root on /dev/pts/1
+Oct 17 18:53:51 spos sshd[35209]: Received disconnect from 2a01:a040:2002:8051:8fb8:824c:d8d0:fa7b port 59954:11: disconnected by user
+Oct 17 18:53:51 spos sshd[35209]: Disconnected from user malyl 2a01:a040:2002:8051:8fb8:824c:d8d0:fa7b port 59954
+Oct 17 19:01:04 spos sshd[835]: Server listening on :: port 22.
+Oct 17 19:01:04 spos sshd[835]: Server listening on 0.0.0.0 port 22.
+Oct 17 19:01:07 spos sshd[874]: Accepted publickey for malyl from 2a01:a040:2002:8051:8fb8:824c:d8d0:fa7b port 38386 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 17 19:01:11 spos su[881]: malyl to root on /dev/pts/0
+Oct 17 19:31:30 spos sshd[876]: Received disconnect from 2a01:a040:2002:8051:8fb8:824c:d8d0:fa7b port 38386:11: disconnected by user
+Oct 17 21:47:07 spos sshd[2990]: Connection closed by 192.168.5.1 port 25153 [preauth]
+Oct 18 01:37:08 spos sshd[4920]: Connection closed by 2a06:4880:9000::a2 port 54401
+Oct 18 01:37:08 spos sshd[4921]: Connection closed by 2a06:4880:9000::a2 port 33275 [preauth]
+Oct 18 07:59:39 spos sshd[8568]: Connection closed by authenticating user malyl 2a09:bac5:2788:137::1f:59 port 46248 [preauth]
+Oct 18 07:59:43 spos sshd[8570]: Connection closed by authenticating user malyl 2a09:bac5:2788:137::1f:59 port 54582 [preauth]
+Oct 18 10:25:08 spos sshd[9798]: Connection closed by 192.168.5.1 port 48216 [preauth]
+Oct 18 11:51:08 spos sshd[10506]: Accepted publickey for malyl from 2a01:a040:2002:8051:2314:c352:a17c:e286 port 33266 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 18 11:51:46 spos su[10527]: malyl to root on /dev/pts/0
+Oct 18 11:54:22 spos sshd[10508]: Received disconnect from 2a01:a040:2002:8051:2314:c352:a17c:e286 port 33266:11: disconnected by user
+Oct 18 19:41:59 spos sshd[14856]: Accepted publickey for malyl from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 48702 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 19:42:08 spos su[14868]: malyl to root on /dev/pts/0
+Oct 18 21:31:07 spos sshd[14858]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 48702:11: disconnected by user
+Oct 18 21:31:07 spos sshd[14858]: Disconnected from user malyl 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 48702
+Oct 18 21:31:21 spos sshd[20793]: Accepted publickey for malyl from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 50682 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:31:45 spos su[20933]: malyl to root on /dev/pts/0
+Oct 18 21:32:28 spos sshd[21125]: Authentication refused: bad ownership or modes for file /home/brizat/.ssh/authorized_keys
+Oct 18 21:32:28 spos syslogd: last message repeated 3 times
+Oct 18 21:32:28 spos sshd[21125]: Connection closed by authenticating user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 46976 [preauth]
+Oct 18 21:33:10 spos sshd[21209]: Accepted publickey for brizat from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 38622 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:33:18 spos sshd[21211]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 38622:11: disconnected by user
+Oct 18 21:33:18 spos sshd[21211]: Disconnected from user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 38622
+Oct 18 21:33:21 spos sshd[21216]: Accepted publickey for brizat from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 37380 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:33:34 spos sshd[21218]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 37380:11: disconnected by user
+Oct 18 21:33:34 spos sshd[21218]: Disconnected from user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 37380
+Oct 18 21:33:40 spos sshd[21342]: Accepted publickey for brizat from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 56850 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:34:08 spos sshd[21344]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 56850:11: disconnected by user
+Oct 18 21:34:08 spos sshd[21344]: Disconnected from user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 56850
+Oct 18 21:34:28 spos sshd[21491]: Accepted publickey for brizat from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 47972 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:34:30 spos sshd[21493]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 47972:11: disconnected by user
+Oct 18 21:34:30 spos sshd[21493]: Disconnected from user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 47972
+Oct 18 21:35:02 spos sshd[21501]: Accepted publickey for brizat from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 46656 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:35:03 spos sshd[21503]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 46656:11: disconnected by user
+Oct 18 21:35:03 spos sshd[21503]: Disconnected from user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 46656
+Oct 18 21:35:07 spos sshd[21509]: Accepted publickey for malyl from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 60368 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:35:11 spos su[21516]: malyl to root on /dev/pts/1
+Oct 18 21:35:46 spos sshd[21511]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 60368:11: disconnected by user
+Oct 18 21:35:46 spos sshd[21511]: Disconnected from user malyl 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 60368
+Oct 18 21:35:57 spos sshd[21687]: Accepted publickey for malyl from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 58398 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:35:59 spos sshd[21689]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 58398:11: disconnected by user
+Oct 18 21:35:59 spos sshd[21689]: Disconnected from user malyl 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 58398
+Oct 18 21:36:02 spos sshd[21695]: Accepted publickey for brizat from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 58404 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:36:04 spos sshd[21697]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 58404:11: disconnected by user
+Oct 18 21:36:04 spos sshd[21697]: Disconnected from user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 58404
+Oct 18 21:36:08 spos sshd[21703]: Accepted publickey for brizat from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 33164 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:36:19 spos sshd[21705]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 33164:11: disconnected by user
+Oct 18 21:36:19 spos sshd[21705]: Disconnected from user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 33164
+Oct 18 21:36:20 spos sshd[21710]: Accepted publickey for malyl from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 50558 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:36:24 spos su[21717]: malyl to root on /dev/pts/1
+Oct 18 21:36:49 spos sshd[21712]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 50558:11: disconnected by user
+Oct 18 21:36:49 spos sshd[21712]: Disconnected from user malyl 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 50558
+Oct 18 21:36:51 spos sshd[21887]: Accepted publickey for brizat from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 54426 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:37:06 spos sshd[21889]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 54426:11: disconnected by user
+Oct 18 21:37:06 spos sshd[21889]: Disconnected from user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 54426
+Oct 18 21:37:10 spos sshd[21899]: Accepted publickey for malyl from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 34758 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:37:15 spos su[21906]: malyl to root on /dev/pts/1
+Oct 18 21:37:35 spos sshd[21901]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 34758:11: disconnected by user
+Oct 18 21:37:35 spos sshd[21901]: Disconnected from user malyl 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 34758
+Oct 18 21:37:37 spos sshd[22058]: Authentication refused: bad ownership or modes for file /home/brizat/.ssh/authorized_keys
+Oct 18 21:37:37 spos syslogd: last message repeated 3 times
+Oct 18 21:37:37 spos sshd[22058]: Connection closed by authenticating user brizat 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 47296 [preauth]
+Oct 18 21:44:59 spos sshd[22851]: Accepted publickey for malyl from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 46986 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 18 21:46:22 spos sshd[22853]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 46986:11: disconnected by user
+Oct 18 21:46:22 spos sshd[22853]: Disconnected from user malyl 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 46986
+Oct 18 21:51:58 spos sshd[23188]: Accepted publickey for nemecs from 2a01:a040:2002:8051:5a9c:fcff:fe0c:be2e port 43870 ssh2: RSA SHA256:cVB2HzJaw+iQv10xLJtHoioVlGwVbb61hTrPFeLU6MU
+Oct 18 21:52:56 spos sshd[23190]: Received disconnect from 2a01:a040:2002:8051:5a9c:fcff:fe0c:be2e port 43870:11: disconnected by user
+Oct 18 22:01:36 spos sshd[24392]: Accepted publickey for malyl from 2a01:a040:2002:8041:5102:b1b8:58ce:fb29 port 60506 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 18 22:01:37 spos sshd[24394]: Received disconnect from 2a01:a040:2002:8041:5102:b1b8:58ce:fb29 port 60506:11: disconnected by user
+Oct 18 22:01:37 spos sshd[24394]: Disconnected from user malyl 2a01:a040:2002:8041:5102:b1b8:58ce:fb29 port 60506
+Oct 18 22:24:21 spos sshd[20795]: Received disconnect from 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 50682:11: disconnected by user
+Oct 18 22:24:21 spos sshd[20795]: Disconnected from user malyl 2a01:a040:2002:8041:1e98:e849:894d:fc78 port 50682
+Oct 18 23:02:48 spos sshd[25647]: Connection closed by 192.168.5.1 port 16516 [preauth]
+Oct 19 11:40:27 spos sshd[32592]: Connection closed by 192.168.5.1 port 30480 [preauth]
+Oct 20 00:18:18 spos sshd[38916]: Connection closed by 192.168.5.1 port 22341 [preauth]
+Oct 20 12:56:07 spos sshd[45695]: Connection closed by 192.168.5.1 port 54982 [preauth]
+Oct 21 01:33:56 spos sshd[52024]: Connection closed by 192.168.5.1 port 61305 [preauth]
+Oct 21 04:38:08 spos sshd[54020]: Connection closed by 2a06:4880:1000::d port 44991
+Oct 21 04:38:09 spos sshd[54021]: Connection closed by 2a06:4880:1000::d port 57457 [preauth]
+Oct 21 14:11:59 spos sshd[58817]: Connection closed by 192.168.5.1 port 25336 [preauth]
+Oct 22 02:49:24 spos sshd[65130]: Connection closed by 192.168.5.1 port 57395 [preauth]
+Oct 22 15:26:37 spos sshd[71909]: Connection closed by 192.168.5.1 port 37422 [preauth]
+Oct 23 04:03:50 spos sshd[78692]: Connection closed by 192.168.5.1 port 57970 [preauth]
+Oct 23 08:55:48 spos sshd[81122]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 65314 [preauth]
+Oct 23 08:58:02 spos sshd[81138]: Accepted publickey for malyl from 2a01:a040:2002:8051:6021:ee46:822b:554f port 55518 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 23 08:59:52 spos sshd[81380]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 13854 [preauth]
+Oct 23 09:00:39 spos sshd[81437]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 14592 [preauth]
+Oct 23 09:01:14 spos sshd[81454]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 15218 [preauth]
+Oct 23 09:02:01 spos sshd[81459]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 15992 [preauth]
+Oct 23 09:02:06 spos sshd[81465]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 16060 [preauth]
+Oct 23 09:03:45 spos sshd[81477]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 17753 [preauth]
+Oct 23 09:06:08 spos su[81521]: malyl to root on /dev/pts/0
+Oct 23 09:06:27 spos sshd[81686]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 20395 [preauth]
+Oct 23 09:09:00 spos sshd[81705]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 22989 [preauth]
+Oct 23 09:09:37 spos sshd[81714]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 23597 [preauth]
+Oct 23 09:09:43 spos sshd[81716]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 23738 [preauth]
+Oct 23 09:10:01 spos sshd[81720]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 24037 [preauth]
+Oct 23 09:15:00 spos sshd[81766]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 29012 [preauth]
+Oct 23 09:35:10 spos sshd[82019]: Connection closed by authenticating user malyl 2001:19f0:5001:308f:5400:3ff:feee:e265 port 49426 [preauth]
+Oct 23 09:43:03 spos sshd[82515]: Connection closed by authenticating user malylu 2a01:a040:2002:8051:6021:ee46:822b:554f port 42038 [preauth]
+Oct 23 09:47:08 spos sshd[82619]: Connection closed by authenticating user malylu 2a01:a040:2002:8051:6021:ee46:822b:554f port 41208 [preauth]
+Oct 23 09:47:23 spos sshd[82621]: Accepted publickey for malyl from 2a01:a040:2002:8051:6021:ee46:822b:554f port 32974 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 23 09:48:05 spos su[82845]: malyl to root on /dev/pts/1
+Oct 23 09:49:55 spos su[82878]: in prompt_tty(): caught signal 2
+Oct 23 09:50:24 spos su[82898]: malyl to malylu on /dev/pts/1
+Oct 23 09:55:54 spos su[83829]: malyl to root on /dev/pts/0
+Oct 23 09:56:00 spos su[83982]: BAD SU malylu to root on /dev/pts/1
+Oct 23 09:56:19 spos sudo[84032]:   malylu : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/malylu ; USER=root ; COMMAND=/usr/bin/su -
+Oct 23 10:42:58 spos sshd[82623]: Received disconnect from 2a01:a040:2002:8051:6021:ee46:822b:554f port 32974:11: disconnected by user
+Oct 23 10:42:58 spos sshd[82623]: Disconnected from user malyl 2a01:a040:2002:8051:6021:ee46:822b:554f port 32974
+Oct 23 10:43:06 spos sshd[87840]: Accepted publickey for malyl from 2a01:a040:2002:8051:6021:ee46:822b:554f port 57968 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 23 10:43:11 spos su[87847]: malyl to malylu on /dev/pts/1
+Oct 23 11:31:23 spos sshd[87842]: Received disconnect from 2a01:a040:2002:8051:6021:ee46:822b:554f port 57968:11: disconnected by user
+Oct 23 12:49:02 spos sshd[81142]: Received disconnect from 2a01:a040:2002:8051:6021:ee46:822b:554f port 55518:11: disconnected by user
+Oct 23 12:49:02 spos sshd[81142]: Disconnected from user malyl 2a01:a040:2002:8051:6021:ee46:822b:554f port 55518
+Oct 23 13:45:29 spos sshd[90740]: Accepted publickey for malyl from 2a01:a040:2002:8051:6021:ee46:822b:554f port 48066 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 23 13:45:46 spos sshd[90742]: Received disconnect from 2a01:a040:2002:8051:6021:ee46:822b:554f port 48066:11: disconnected by user
+Oct 23 16:19:18 spos sshd[92173]: Connection closed by 2a02:768:fd31:fd52:bab8:13f4:b2ce:44f5 port 52948 [preauth]
+Oct 23 16:19:23 spos sshd[92175]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:bab8:13f4:b2ce:44f5 port 52950 [preauth]
+Oct 23 16:19:37 spos sshd[92180]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:bab8:13f4:b2ce:44f5 port 46504 [preauth]
+Oct 23 16:19:40 spos sshd[92182]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:bab8:13f4:b2ce:44f5 port 59106 [preauth]
+Oct 23 16:25:14 spos sshd[92234]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:bab8:13f4:b2ce:44f5 port 37998 [preauth]
+Oct 23 16:25:23 spos sshd[92236]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:bab8:13f4:b2ce:44f5 port 53348 [preauth]
+Oct 23 16:25:32 spos sshd[92241]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:bab8:13f4:b2ce:44f5 port 34634 [preauth]
+Oct 23 16:38:38 spos sshd[92345]: Received disconnect from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57036:11: Normal Shutdown [preauth]
+Oct 23 16:38:38 spos sshd[92345]: Disconnected from authenticating user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57036 [preauth]
+Oct 23 16:39:22 spos sshd[92351]: error: maximum authentication attempts exceeded for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57037 ssh2 [preauth]
+Oct 23 16:39:22 spos sshd[92351]: Disconnecting authenticating user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57037: Too many authentication failures [preauth]
+Oct 23 16:39:58 spos sshd[92356]: error: maximum authentication attempts exceeded for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57038 ssh2 [preauth]
+Oct 23 16:39:58 spos sshd[92356]: Disconnecting authenticating user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57038: Too many authentication failures [preauth]
+Oct 23 16:41:18 spos sshd[92371]: Connection closed by 192.168.5.1 port 45831 [preauth]
+Oct 23 16:54:39 spos sshd[92478]: Accepted publickey for malyl from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 37572 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 23 16:56:52 spos sshd[92510]: Accepted publickey for malyl from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 50048 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 23 16:57:03 spos su[92658]: malyl to root on /dev/pts/1
+Oct 23 16:57:39 spos sshd[92830]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 40562 [preauth]
+Oct 23 16:57:51 spos sshd[92832]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 57708 [preauth]
+Oct 23 16:58:01 spos sshd[92834]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 52462 [preauth]
+Oct 23 16:58:14 spos sshd[92840]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 34678 [preauth]
+Oct 23 16:58:23 spos sshd[92842]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 55504 [preauth]
+Oct 23 16:59:52 spos sshd[92855]: Connection closed by authenticating user malyl 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 44362 [preauth]
+Oct 23 16:59:59 spos sshd[92857]: Accepted publickey for malyl from 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 52244 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 23 17:00:34 spos sshd[92881]: error: maximum authentication attempts exceeded for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57062 ssh2 [preauth]
+Oct 23 17:00:34 spos sshd[92881]: Disconnecting authenticating user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57062: Too many authentication failures [preauth]
+Oct 23 17:00:37 spos sshd[92883]: error: maximum authentication attempts exceeded for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57063 ssh2 [preauth]
+Oct 23 17:00:37 spos sshd[92883]: Disconnecting authenticating user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57063: Too many authentication failures [preauth]
+Oct 23 17:00:50 spos sshd[92885]: error: maximum authentication attempts exceeded for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57064 ssh2 [preauth]
+Oct 23 17:00:50 spos sshd[92885]: Disconnecting authenticating user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57064: Too many authentication failures [preauth]
+Oct 23 17:00:52 spos sshd[92887]: error: maximum authentication attempts exceeded for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57065 ssh2 [preauth]
+Oct 23 17:00:52 spos sshd[92887]: Disconnecting authenticating user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57065: Too many authentication failures [preauth]
+Oct 23 17:02:30 spos sshd[92914]: Accepted publickey for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57066 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:02:30 spos sshd[92916]: Received disconnect from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57066:11: Normal Shutdown
+Oct 23 17:02:30 spos sshd[92916]: Disconnected from user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57066
+Oct 23 17:05:05 spos sshd[92945]: Accepted publickey for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57069 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:05:23 spos sshd[92948]: Received disconnect from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57069:11: Normal Shutdown
+Oct 23 17:05:23 spos sshd[92948]: Disconnected from user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57069
+Oct 23 17:05:47 spos sshd[92962]: Accepted publickey for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57070 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:06:34 spos sshd[92964]: Received disconnect from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57070:11: Normal Shutdown
+Oct 23 17:06:34 spos sshd[92964]: Disconnected from user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57070
+Oct 23 17:07:12 spos sshd[93088]: Accepted publickey for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57073 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:07:22 spos sshd[93090]: Received disconnect from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57073:11: Normal Shutdown
+Oct 23 17:07:22 spos sshd[93090]: Disconnected from user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57073
+Oct 23 17:07:51 spos sshd[93113]: Accepted publickey for malyl from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57074 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:08:04 spos sshd[93125]: Accepted publickey for malyl from 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 49474 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 23 17:08:14 spos sshd[92480]: Received disconnect from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 37572:11: disconnected by user
+Oct 23 17:08:14 spos sshd[92480]: Disconnected from user malyl 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 37572
+Oct 23 17:08:18 spos sshd[93132]: Accepted publickey for malyl from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 44296 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 23 17:08:46 spos sshd[93115]: Received disconnect from 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57074:11: Normal Shutdown
+Oct 23 17:08:46 spos sshd[93115]: Disconnected from user malyl 2a02:768:fd31:fd52:d932:23f5:c453:cc91 port 57074
+Oct 23 17:09:20 spos sshd[93146]: Accepted publickey for malyl from 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57079 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:10:13 spos sshd[93166]: Accepted publickey for malyl from 2a09:bac5:2797:1c6e::2d5:4a port 9524 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 23 17:10:38 spos sshd[93148]: Received disconnect from 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57079:11: Normal Shutdown
+Oct 23 17:10:38 spos sshd[93148]: Disconnected from user malyl 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57079
+Oct 23 17:10:46 spos sshd[93186]: Accepted publickey for malyl from 2a09:bac5:2797:1c6e::2d5:4a port 45446 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 23 17:11:22 spos sshd[93203]: Accepted publickey for malyl from 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57080 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:14:32 spos su[93344]: malyl to root on /dev/pts/0
+Oct 23 17:17:24 spos sshd[93205]: Received disconnect from 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57080:11: Normal Shutdown
+Oct 23 17:17:24 spos sshd[93205]: Disconnected from user malyl 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57080
+Oct 23 17:18:28 spos sshd[92512]: Received disconnect from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 50048:11: disconnected by user
+Oct 23 17:18:28 spos sshd[92512]: Disconnected from user malyl 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 50048
+Oct 23 17:38:50 spos sshd[27603]: Accepted publickey for malyl from 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57088 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:39:33 spos sshd[27605]: Received disconnect from 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57088:11: Normal Shutdown
+Oct 23 17:39:33 spos sshd[27605]: Disconnected from user malyl 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57088
+Oct 23 17:45:06 spos sshd[27735]: Accepted publickey for malyl from 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 57706 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 23 17:46:16 spos sshd[93134]: Received disconnect from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 44296:11: disconnected by user
+Oct 23 17:46:16 spos sshd[93134]: Disconnected from user malyl 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 44296
+Oct 23 17:48:26 spos sshd[27844]: Accepted publickey for malyl from 2a02:768:fd31:fd52:42e5:e8d5:2b89:26fa port 41002 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 23 17:48:33 spos sshd[27853]: Accepted publickey for malyl from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 56268 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 23 17:48:35 spos sshd[27855]: Received disconnect from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 56268:11: disconnected by user
+Oct 23 17:48:35 spos sshd[27855]: Disconnected from user malyl 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 56268
+Oct 23 17:48:39 spos sshd[27862]: Accepted publickey for malyl from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 35332 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 23 17:49:07 spos sshd[27873]: Accepted publickey for malyl from 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57091 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 23 17:53:38 spos sshd[27864]: Received disconnect from 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 35332:11: disconnected by user
+Oct 23 17:53:38 spos sshd[27864]: Disconnected from user malyl 2a02:768:fd31:fd52:e47:6b8d:dd28:9c73 port 35332
+Oct 23 17:53:48 spos sshd[27875]: Received disconnect from 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57091:11: Normal Shutdown
+Oct 23 17:53:48 spos sshd[27875]: Disconnected from user malyl 2a00:102a:5022:955b:f1f4:ab9f:c77:f0d1 port 57091
+Oct 23 20:54:32 spos sshd[30726]: Accepted publickey for malyl from 2a01:a040:2002:8041:5fe0:c5bc:86ba:3d44 port 51242 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 23 20:54:44 spos su[30736]: malyl to root on /dev/pts/0
+Oct 24 04:40:49 spos sshd[39284]: Connection closed by 2a06:4880:3000::40 port 48593
+Oct 24 04:40:49 spos sshd[39285]: Connection closed by 2a06:4880:3000::40 port 44843 [preauth]
+Oct 24 05:18:55 spos sshd[39878]: Connection closed by 192.168.5.1 port 60482 [preauth]
+Oct 24 08:06:03 spos sshd[42452]: Accepted publickey for malyl from 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 53354 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 24 08:06:07 spos su[42464]: malyl to root on /dev/pts/0
+Oct 24 08:11:15 spos sshd[42835]: Accepted publickey for malyl from 2a01:a040:2002:8051:7588:6695:98dd:3edc port 57778 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 24 08:15:28 spos sshd[42910]: Accepted publickey for malyl from 2a01:a040:2002:8051:8e0c:55d6:c9cc:e211 port 37122 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 24 08:48:05 spos sshd[835]: Received signal 15; terminating.
+Oct 24 08:49:15 spos sshd[833]: Server listening on :: port 22.
+Oct 24 08:49:15 spos sshd[833]: Server listening on 0.0.0.0 port 22.
+Oct 24 08:53:45 spos sshd[929]: Accepted publickey for malyl from 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 50592 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 24 08:53:49 spos su[936]: malyl to root on /dev/pts/0
+Oct 24 09:05:46 spos sshd[931]: Received disconnect from 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 50592:11: disconnected by user
+Oct 24 09:05:46 spos sshd[931]: Disconnected from user malyl 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 50592
+Oct 24 09:05:55 spos sshd[1308]: Accepted publickey for malyl from 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 39078 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 24 09:11:49 spos sshd[1407]: Accepted publickey for malyl from 2a01:a040:2002:8051:8e0c:55d6:c9cc:e211 port 52362 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 24 09:15:53 spos sshd[1472]: Accepted publickey for malyl from 2a01:a040:2002:8051:7588:6695:98dd:3edc port 63700 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 24 09:44:13 spos su[1916]: malyl to root on /dev/pts/0
+Oct 24 09:49:17 spos su[2169]: malyl to root on /dev/pts/0
+Oct 24 10:54:59 spos sshd[1310]: Received disconnect from 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 39078:11: disconnected by user
+Oct 24 10:54:59 spos sshd[1310]: Disconnected from user malyl 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 39078
+Oct 24 10:57:11 spos sshd[1474]: Received disconnect from 2a01:a040:2002:8051:7588:6695:98dd:3edc port 63700:11: Normal Shutdown
+Oct 24 10:57:11 spos sshd[1474]: Disconnected from user malyl 2a01:a040:2002:8051:7588:6695:98dd:3edc port 63700
+Oct 24 11:01:55 spos sshd[3652]: Accepted publickey for malyl from 2a01:a040:2002:8051:a719:e6f4:c96a:864e port 35810 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 24 12:02:33 spos sshd[4594]: Accepted publickey for malyl from 2a09:bac1:1d80:8::1f:6e port 24288 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 24 12:26:12 spos sshd[4959]: Accepted publickey for malyl from 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 58618 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 24 12:26:20 spos su[4967]: malyl to root on /dev/pts/0
+Oct 24 12:55:31 spos sshd[4962]: Received disconnect from 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 58618:11: disconnected by user
+Oct 24 12:55:31 spos sshd[4962]: Disconnected from user malyl 2a01:a040:2002:8051:fd1:823d:b241:3e9c port 58618
+Oct 24 13:00:15 spos sshd[6255]: Invalid user hp from 2a01:a040:2002:8051:3946:cdd7:152f:87ec port 50050
+Oct 24 13:00:15 spos sshd[6255]: Connection reset by invalid user hp 2a01:a040:2002:8051:3946:cdd7:152f:87ec port 50050 [preauth]
+Oct 24 13:00:27 spos sshd[6257]: Connection reset by authenticating user malyl 2a01:a040:2002:8051:3946:cdd7:152f:87ec port 50053 [preauth]
+Oct 24 17:56:34 spos sshd[10800]: Connection closed by 192.168.5.1 port 29903 [preauth]
+Oct 24 18:55:23 spos sshd[11705]: Accepted publickey for malyl from 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 54442 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 24 19:05:15 spos sshd[11707]: Received disconnect from 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 54442:11: disconnected by user
+Oct 24 19:05:15 spos sshd[11707]: Disconnected from user malyl 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 54442
+Oct 24 19:05:17 spos sshd[11872]: Accepted publickey for malyl from 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 55650 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 24 19:11:18 spos su[11972]: malyl to root on /dev/pts/0
+Oct 24 19:14:48 spos sshd[11874]: Received disconnect from 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 55650:11: disconnected by user
+Oct 24 19:14:48 spos sshd[11874]: Disconnected from user malyl 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 55650
+Oct 24 19:14:56 spos sshd[12374]: Accepted publickey for malylu from 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 53046 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 24 19:26:13 spos su[12772]: BAD SU malylu to root on /dev/pts/0
+Oct 24 19:26:21 spos su[12779]: malylu to malyl on /dev/pts/0
+Oct 24 19:26:27 spos su[12783]: malyl to root on /dev/pts/0
+Oct 24 19:40:17 spos sshd[16886]: Accepted publickey for malyl from 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 46376 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 24 19:40:21 spos su[16893]: malyl to root on /dev/pts/1
+Oct 24 20:33:02 spos sshd[16888]: Received disconnect from 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 46376:11: disconnected by user
+Oct 24 20:33:02 spos sshd[16888]: Disconnected from user malyl 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 46376
+Oct 24 20:34:57 spos sshd[12376]: Received disconnect from 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 53046:11: disconnected by user
+Oct 24 20:34:57 spos sshd[12376]: Disconnected from user malylu 2a01:a040:2002:8041:1eb2:85ae:ba7f:444 port 53046
+Oct 25 06:34:16 spos sshd[27715]: Connection closed by 192.168.5.1 port 6646 [preauth]
+Oct 25 11:21:56 spos sshd[32128]: Accepted publickey for malyl from 2a01:a040:2002:8051:5036:6a40:f4b8:d620 port 54808 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 25 11:21:56 spos sshd[32130]: Received disconnect from 2a01:a040:2002:8051:5036:6a40:f4b8:d620 port 54808:11: disconnected by user
+Oct 25 11:21:56 spos sshd[32130]: Disconnected from user malyl 2a01:a040:2002:8051:5036:6a40:f4b8:d620 port 54808
+Oct 25 11:22:45 spos sshd[32153]: Accepted publickey for malyl from 2a01:a040:2002:8051:5036:6a40:f4b8:d620 port 34262 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 25 11:22:49 spos su[32160]: malyl to root on /dev/pts/0
+Oct 25 11:35:26 spos sshd[32155]: Received disconnect from 2a01:a040:2002:8051:5036:6a40:f4b8:d620 port 34262:11: disconnected by user
+Oct 25 11:35:26 spos sshd[32155]: Disconnected from user malyl 2a01:a040:2002:8051:5036:6a40:f4b8:d620 port 34262
+Oct 25 15:52:54 spos sshd[37061]: Accepted publickey for malyl from 2a00:102a:401f:814d:28fb:3827:d469:4416 port 56550 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 25 15:53:33 spos su[37080]: BAD SU malyl to root on /dev/pts/0
+Oct 25 15:53:56 spos su[37088]: malyl to root on /dev/pts/0
+Oct 25 19:11:43 spos sshd[7902]: Connection closed by 192.168.5.1 port 15236 [preauth]
+Oct 25 22:03:43 spos sshd[10545]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58804
+Oct 25 22:03:56 spos sshd[10547]: error: Protocol major versions differ: 2 vs. 1
+Oct 25 22:03:56 spos sshd[10547]: banner exchange: Connection from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39310: could not read protocol version
+Oct 25 22:03:56 spos sshd[10548]: error: Protocol major versions differ: 2 vs. 1
+Oct 25 22:03:56 spos sshd[10548]: banner exchange: Connection from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39318: could not read protocol version
+Oct 25 22:03:56 spos sshd[10550]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39322: no matching host key type found. Their offer: ssh-dss [preauth]
+Oct 25 22:03:57 spos sshd[10552]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39326: no matching host key type found. Their offer: ssh-rsa [preauth]
+Oct 25 22:03:57 spos sshd[10554]: error: Fssh_kex_protocol_error: type 30 seq 1 [preauth]
+Oct 25 22:03:57 spos sshd[10554]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39330 [preauth]
+Oct 25 22:03:57 spos sshd[10556]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39340: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Oct 25 22:03:58 spos sshd[10558]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39346: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Oct 25 22:03:58 spos sshd[10560]: error: Fssh_kex_protocol_error: type 30 seq 1 [preauth]
+Oct 25 22:03:58 spos sshd[10560]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39358 [preauth]
+Oct 25 22:18:54 spos sshd[10787]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 60720 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 25 22:18:57 spos su[10794]: malyl to root on /dev/pts/0
+Oct 25 22:20:08 spos sshd[833]: Received signal 15; terminating.
+Oct 25 22:20:08 spos sshd[10851]: Server listening on :: port 22.
+Oct 25 22:20:08 spos sshd[10851]: Server listening on 0.0.0.0 port 22.
+Oct 25 22:25:12 spos sshd[10988]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 46026
+Oct 25 22:25:24 spos sshd[10992]: error: Protocol major versions differ: 2 vs. 1
+Oct 25 22:25:24 spos sshd[10992]: banner exchange: Connection from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34212: could not read protocol version
+Oct 25 22:25:24 spos sshd[10993]: error: Protocol major versions differ: 2 vs. 1
+Oct 25 22:25:24 spos sshd[10993]: banner exchange: Connection from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34214: could not read protocol version
+Oct 25 22:25:24 spos sshd[10994]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34226: no matching host key type found. Their offer: ssh-dss [preauth]
+Oct 25 22:25:25 spos sshd[10996]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34232: no matching host key type found. Their offer: ssh-rsa [preauth]
+Oct 25 22:25:25 spos sshd[10998]: error: Fssh_kex_protocol_error: type 30 seq 1 [preauth]
+Oct 25 22:25:25 spos sshd[10998]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34242 [preauth]
+Oct 25 22:25:25 spos sshd[11000]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34258: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Oct 25 22:25:25 spos sshd[11002]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34262: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Oct 25 22:25:25 spos sshd[11004]: error: Fssh_kex_protocol_error: type 30 seq 1 [preauth]
+Oct 25 22:25:25 spos sshd[11004]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34278 [preauth]
+Oct 25 22:26:39 spos sshd[10851]: Received signal 15; terminating.
+Oct 25 22:26:39 spos sshd[11058]: Server listening on :: port 22.
+Oct 25 22:26:39 spos sshd[11058]: Server listening on 0.0.0.0 port 22.
+Oct 25 22:28:00 spos sshd[11058]: Received signal 15; terminating.
+Oct 25 22:28:00 spos sshd[11105]: Server listening on :: port 22.
+Oct 25 22:28:00 spos sshd[11105]: Server listening on 0.0.0.0 port 22.
+Oct 25 22:28:10 spos sshd[11113]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 47624
+Oct 25 22:28:22 spos sshd[11115]: error: Protocol major versions differ: 2 vs. 1
+Oct 25 22:28:22 spos sshd[11115]: banner exchange: Connection from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 48730: could not read protocol version
+Oct 25 22:28:23 spos sshd[11117]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 48758: no matching host key type found. Their offer: ssh-dss [preauth]
+Oct 25 22:28:23 spos sshd[11119]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 48770: no matching host key type found. Their offer: ssh-rsa [preauth]
+Oct 25 22:28:23 spos sshd[11121]: error: Fssh_kex_protocol_error: type 30 seq 1 [preauth]
+Oct 25 22:28:23 spos sshd[11121]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 48774 [preauth]
+Oct 25 22:28:23 spos sshd[11123]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 48782: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Oct 25 22:28:23 spos sshd[11125]: Unable to negotiate with 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 48788: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Oct 25 22:28:23 spos sshd[11127]: error: Fssh_kex_protocol_error: type 30 seq 1 [preauth]
+Oct 25 22:28:23 spos sshd[11127]: Connection closed by 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 48790 [preauth]
+Oct 26 00:01:29 spos sshd[10789]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 60720:11: disconnected by user
+Oct 26 00:01:29 spos sshd[10789]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 60720
+Oct 26 00:02:11 spos sshd[39793]: Accepted publickey for malyl from 2a01:a040:2002:8041:3f5d:64ca:d92d:1507 port 55334 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 26 00:08:39 spos sshd[39898]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 60924 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 26 00:08:46 spos su[39905]: malyl to root on /dev/pts/0
+Oct 26 00:20:07 spos sshd[39900]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 60924:11: disconnected by user
+Oct 26 00:20:07 spos sshd[39900]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 60924
+Oct 26 00:20:09 spos sshd[40321]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39012 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 26 00:20:13 spos su[40331]: malyl to root on /dev/pts/0
+Oct 26 00:23:36 spos sshd[40323]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39012:11: disconnected by user
+Oct 26 00:23:36 spos sshd[40323]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 39012
+Oct 26 00:23:38 spos sshd[40659]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58306 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 26 00:23:47 spos su[40666]: malyl to root on /dev/pts/0
+Oct 26 00:24:33 spos sshd[40661]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58306:11: disconnected by user
+Oct 26 00:24:33 spos sshd[40661]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58306
+Oct 26 00:24:34 spos sshd[41198]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 41956 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 26 00:24:38 spos su[41208]: malyl to root on /dev/pts/0
+Oct 26 00:25:23 spos sshd[41402]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 59284 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 26 00:25:27 spos su[41409]: malyl to root on /dev/pts/1
+Oct 26 00:26:14 spos sshd[41578]: Accepted publickey for malyl from 2a01:a040:2002:8041:3f5d:64ca:d92d:1507 port 51464 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 26 00:26:54 spos sshd[41590]: Accepted publickey for malyl from 2a01:a040:2002:8041:294b:187b:e58d:df06 port 56709 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Oct 26 00:35:50 spos sshd[41200]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 41956:11: disconnected by user
+Oct 26 00:35:50 spos sshd[41200]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 41956
+Oct 26 00:36:10 spos sshd[41592]: Received disconnect from 2a01:a040:2002:8041:294b:187b:e58d:df06 port 56709:11: Normal Shutdown
+Oct 26 00:36:10 spos sshd[41592]: Disconnected from user malyl 2a01:a040:2002:8041:294b:187b:e58d:df06 port 56709
+Oct 26 00:39:11 spos sshd[41404]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 59284:11: disconnected by user
+Oct 26 00:39:11 spos sshd[41404]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 59284
+Oct 26 01:38:33 spos sshd[44107]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34420 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 26 01:38:49 spos sshd[44109]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34420:11: disconnected by user
+Oct 26 01:38:49 spos sshd[44109]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 34420
+Oct 26 01:38:58 spos sshd[44116]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58112 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 26 01:39:23 spos sshd[44118]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58112:11: disconnected by user
+Oct 26 01:39:23 spos sshd[44118]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58112
+Oct 26 01:39:57 spos sshd[44136]: Accepted publickey for malyl from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58728 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 26 01:40:05 spos sshd[44138]: Received disconnect from 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58728:11: disconnected by user
+Oct 26 01:40:05 spos sshd[44138]: Disconnected from user malyl 2a01:a040:2002:8041:dc12:4e95:2160:1f9b port 58728
+Oct 26 07:49:02 spos sshd[50443]: Connection closed by 192.168.5.1 port 2322 [preauth]
+Oct 26 09:05:08 spos sshd[51630]: Accepted publickey for malyl from 2a01:a040:2002:8041:3f5d:64ca:d92d:1507 port 49328 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 26 15:02:05 spos sshd[57116]: reverse mapping checking getaddrinfo for customer.frntdeu1.pop.starlinkisp.net [2a0d:3344:1986:400::1b5b] failed.
+Oct 26 15:02:05 spos sshd[57116]: Accepted publickey for malyl from 2a0d:3344:1986:400::1b5b port 48708 ssh2: ED25519 SHA256:qYz61Wvt4dAS/fK23yB532uuK52Gykxop+1/pFOzoro
+Oct 26 15:02:44 spos su[57136]: malyl to root on /dev/pts/0
+Oct 26 15:06:30 spos sshd[57118]: Received disconnect from 2a0d:3344:1986:400::1b5b port 48708:11: disconnected by user
+Oct 26 15:06:30 spos sshd[57118]: Disconnected from user malyl 2a0d:3344:1986:400::1b5b port 48708
+Oct 26 15:34:40 spos sshd[59464]: Accepted publickey for malyl from 2a09:bac1:1dc0:8::3a0:61 port 29696 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Oct 26 20:26:21 spos sshd[63949]: Connection closed by 192.168.5.1 port 7412 [preauth]
+Oct 27 03:44:09 spos sshd[71930]: Connection closed by 2a06:4880:7000::7c port 33215
+Oct 27 03:44:10 spos sshd[71933]: Connection closed by 2a06:4880:7000::7c port 38431 [preauth]
+Oct 27 08:03:41 spos sshd[76063]: Connection closed by 192.168.5.1 port 4087 [preauth]
+Oct 27 20:40:56 spos sshd[87673]: Connection closed by 192.168.5.1 port 2046 [preauth]
+Oct 28 09:18:14 spos sshd[99780]: Connection closed by 192.168.5.1 port 34409 [preauth]
+Oct 28 16:58:06 spos sshd[6867]: Accepted publickey for sukm from 2a0b:f4c2:1::1 port 35473 ssh2: RSA SHA256:zcq2pusH2Zgl7RtsfW6Z8eY4/rzZ8+01g1MPTQhUbPs
+Oct 28 17:17:19 spos sshd[7173]: Accepted publickey for sukm from 2a0b:f4c2:1::1 port 58473 ssh2: RSA SHA256:zcq2pusH2Zgl7RtsfW6Z8eY4/rzZ8+01g1MPTQhUbPs
+Oct 28 17:24:26 spos sshd[7285]: Accepted publickey for sukm from 2001:67c:89c:702:1ce:1ce:babe:9 port 64740 ssh2: RSA SHA256:zcq2pusH2Zgl7RtsfW6Z8eY4/rzZ8+01g1MPTQhUbPs
+Oct 28 17:25:39 spos sshd[7311]: Accepted publickey for sukm from 2001:67c:89c:702:1ce:1ce:babe:9 port 64856 ssh2: RSA SHA256:zcq2pusH2Zgl7RtsfW6Z8eY4/rzZ8+01g1MPTQhUbPs
+Oct 28 17:28:21 spos sshd[7351]: Accepted publickey for sukm from 2001:67c:89c:702:1ce:1ce:babe:9 port 64654 ssh2: RSA SHA256:zcq2pusH2Zgl7RtsfW6Z8eY4/rzZ8+01g1MPTQhUbPs
+Oct 28 17:31:14 spos sudo[7395]:     sukm : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/sukm/mujweb ; USER=root ; COMMAND=apt install python3
+Oct 28 17:32:39 spos sudo[7414]:     sukm : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/sukm/mujweb ; USER=root ; COMMAND=apt install python3
+Oct 28 17:33:31 spos su[7452]: BAD SU sukm to root on /dev/pts/1
+Oct 28 19:21:29 spos sshd[9106]: Invalid user admin from 2a09:bac1:1d80:278::1f:51 port 29872
+Oct 28 19:21:31 spos sshd[9106]: error: Received disconnect from 2a09:bac1:1d80:278::1f:51 port 29872:14: No supported authentication methods available [preauth]
+Oct 28 19:21:31 spos sshd[9106]: Disconnected from invalid user admin 2a09:bac1:1d80:278::1f:51 port 29872 [preauth]
+Oct 28 19:27:36 spos sshd[9193]: Invalid user jezj@spos.pfsense.cz from 2a09:bac1:1d80:278::1f:51 port 47434
+Oct 28 19:31:24 spos sshd[9261]: Connection closed by 2a09:bac1:1dc0:278::1f:51 port 55352 [preauth]
+Oct 28 19:32:29 spos sshd[9277]: Accepted publickey for jezj from 2a09:bac1:1d80:278::1f:51 port 19658 ssh2: RSA SHA256:xfTH2bsq+Eyq33xE3roaaRQqruWxrkCntY9H48NPBx4
+Oct 28 20:27:44 spos sshd[10144]: Accepted publickey for malyl from 2a01:a040:2002:8041:6025:37cf:7da0:f5a1 port 38688 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 28 20:46:50 spos sshd[10443]: Accepted publickey for jezj from 2a09:bac5:2796:137::1f:51 port 30294 ssh2: RSA SHA256:xfTH2bsq+Eyq33xE3roaaRQqruWxrkCntY9H48NPBx4
+Oct 28 20:51:43 spos su[10536]: malyl to root on /dev/pts/0
+Oct 28 21:00:41 spos sshd[10146]: Received disconnect from 2a01:a040:2002:8041:6025:37cf:7da0:f5a1 port 38688:11: disconnected by user
+Oct 28 21:00:41 spos sshd[10146]: Disconnected from user malyl 2a01:a040:2002:8041:6025:37cf:7da0:f5a1 port 38688
+Oct 28 21:07:06 spos sshd[11120]: Accepted publickey for jezj from 2a09:bac1:1de0:278::1f:51 port 64554 ssh2: RSA SHA256:xfTH2bsq+Eyq33xE3roaaRQqruWxrkCntY9H48NPBx4
+Oct 28 21:14:01 spos sshd[11238]: Accepted publickey for jezj from 2a09:bac5:2797:137::1f:51 port 50554 ssh2: RSA SHA256:xfTH2bsq+Eyq33xE3roaaRQqruWxrkCntY9H48NPBx4
+Oct 28 21:55:33 spos sshd[11888]: Connection closed by 192.168.5.1 port 19913 [preauth]
+Oct 29 10:32:50 spos sshd[23974]: Connection closed by 192.168.5.1 port 7999 [preauth]
+Oct 29 15:06:10 spos sshd[28181]: Accepted publickey for sukm from 2a00:1b88:4::4 port 37240 ssh2: RSA SHA256:zcq2pusH2Zgl7RtsfW6Z8eY4/rzZ8+01g1MPTQhUbPs
+Oct 29 15:07:05 spos sshd[28198]: Accepted publickey for sukm from 2a00:1b88:4::4 port 56618 ssh2: RSA SHA256:zcq2pusH2Zgl7RtsfW6Z8eY4/rzZ8+01g1MPTQhUbPs
+Oct 29 20:47:28 spos sshd[33419]: Accepted publickey for malyl from 2a01:a040:2002:8041:7258:a2e7:c2d2:bcc7 port 55328 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 29 21:15:51 spos su[33874]: malyl to root on /dev/pts/0
+Oct 29 21:24:34 spos sshd[11105]: Received signal 15; terminating.
+Oct 29 21:24:34 spos sshd[44553]: Server listening on :: port 22.
+Oct 29 21:24:34 spos sshd[44553]: Server listening on 0.0.0.0 port 22.
+Oct 29 21:25:23 spos sshd[833]: Server listening on :: port 22.
+Oct 29 21:25:23 spos sshd[833]: Server listening on 0.0.0.0 port 22.
+Oct 29 21:25:23 spos sshd[863]: Accepted publickey for malyl from 2a01:a040:2002:8041:7258:a2e7:c2d2:bcc7 port 44030 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 29 21:25:27 spos su[879]: malyl to root on /dev/pts/0
+Oct 29 21:48:22 spos sshd[874]: Received disconnect from 2a01:a040:2002:8041:7258:a2e7:c2d2:bcc7 port 44030:11: disconnected by user
+Oct 29 21:48:22 spos sshd[874]: Disconnected from user malyl 2a01:a040:2002:8041:7258:a2e7:c2d2:bcc7 port 44030
+Oct 29 23:10:09 spos sshd[3913]: Connection closed by 192.168.5.1 port 28642 [preauth]
+Oct 30 06:11:57 spos sshd[10867]: Connection closed by 2a06:4880:9000::a7 port 38305
+Oct 30 06:11:57 spos sshd[10868]: Connection closed by 2a06:4880:9000::a7 port 59345 [preauth]
+Oct 30 09:35:08 spos sshd[13994]: Accepted publickey for malyl from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 59370 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 30 09:35:12 spos su[14004]: malyl to root on /dev/pts/0
+Oct 30 09:37:00 spos sshd[13996]: Received disconnect from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 59370:11: disconnected by user
+Oct 30 09:37:00 spos sshd[13996]: Disconnected from user malyl 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 59370
+Oct 30 10:43:58 spos sshd[15343]: Accepted publickey for malyl from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 56122 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 30 10:44:01 spos sshd[15345]: Received disconnect from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 56122:11: disconnected by user
+Oct 30 10:44:01 spos sshd[15345]: Disconnected from user malyl 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 56122
+Oct 30 10:51:59 spos sshd[15472]: Accepted publickey for malyl from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 57666 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 30 10:52:03 spos sshd[15474]: Received disconnect from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 57666:11: disconnected by user
+Oct 30 10:52:03 spos sshd[15474]: Disconnected from user malyl 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 57666
+Oct 30 10:52:06 spos sshd[15483]: Accepted publickey for malyl from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 59434 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 30 10:52:15 spos su[15494]: malyl to root on /dev/pts/0
+Oct 30 10:52:34 spos sshd[15485]: Received disconnect from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 59434:11: disconnected by user
+Oct 30 10:52:34 spos sshd[15485]: Disconnected from user malyl 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 59434
+Oct 30 10:52:59 spos sshd[15507]: Accepted publickey for malyl from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 48246 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 30 10:54:50 spos sshd[15509]: Received disconnect from 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 48246:11: disconnected by user
+Oct 30 10:54:50 spos sshd[15509]: Disconnected from user malyl 2a01:a040:2002:8051:6af5:5a02:69d2:cb03 port 48246
+Oct 30 11:47:36 spos sshd[16364]: Connection closed by 192.168.5.1 port 37349 [preauth]
+Oct 30 21:02:16 spos sshd[24885]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 33750 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:02:21 spos su[24892]: malyl to root on /dev/pts/0
+Oct 30 21:03:15 spos sshd[24887]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 33750:11: disconnected by user
+Oct 30 21:03:15 spos sshd[24887]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 33750
+Oct 30 21:12:14 spos sshd[25234]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 50580 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:12:20 spos sshd[25236]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 50580:11: disconnected by user
+Oct 30 21:12:20 spos sshd[25236]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 50580
+Oct 30 21:32:10 spos sshd[25545]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 40572 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:32:15 spos sshd[25547]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 40572:11: disconnected by user
+Oct 30 21:32:15 spos sshd[25547]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 40572
+Oct 30 21:32:20 spos sshd[25553]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 51020 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:32:23 spos sshd[25555]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 51020:11: disconnected by user
+Oct 30 21:32:23 spos sshd[25555]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 51020
+Oct 30 21:32:24 spos sshd[25559]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 48366 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:32:26 spos sshd[25561]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 48366:11: disconnected by user
+Oct 30 21:32:26 spos sshd[25561]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 48366
+Oct 30 21:32:32 spos sshd[25568]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 43220 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:32:38 spos sshd[25577]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 43222 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:32:42 spos sshd[25583]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 47624 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:32:45 spos sshd[25589]: Accepted publickey for malyl from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 47630 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Oct 30 21:33:15 spos sshd[25570]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 43220:11: disconnected by user
+Oct 30 21:33:15 spos sshd[25570]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 43220
+Oct 30 21:33:17 spos sshd[25579]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 43222:11: disconnected by user
+Oct 30 21:33:17 spos sshd[25579]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 43222
+Oct 30 21:34:11 spos sshd[25591]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 47630:11: disconnected by user
+Oct 30 21:34:11 spos sshd[25591]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 47630
+Oct 30 21:34:14 spos sshd[25585]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 47624:11: disconnected by user
+Oct 30 21:34:14 spos sshd[25585]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 47624
+Oct 31 00:25:26 spos sshd[28263]: Connection closed by 192.168.5.1 port 12532 [preauth]
+Oct 31 09:00:42 spos sshd[833]: Received signal 15; terminating.
+Oct 31 09:01:53 spos sshd[833]: Server listening on :: port 22.
+Oct 31 09:01:53 spos sshd[833]: Server listening on 0.0.0.0 port 22.
+Oct 31 09:05:56 spos sshd[833]: Received signal 15; terminating.
+Oct 31 09:07:01 spos sshd[817]: Server listening on :: port 22.
+Oct 31 09:07:01 spos sshd[817]: Server listening on 0.0.0.0 port 22.
+Oct 31 13:03:01 spos sshd[4471]: Connection closed by 192.168.5.1 port 15689 [preauth]
+Oct 31 13:49:06 spos sshd[5180]: Accepted publickey for malyl from 2a01:a040:2002:8051:343b:aaf9:fb21:b4f0 port 51884 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 31 13:49:15 spos su[5191]: malyl to root on /dev/pts/0
+Oct 31 14:17:12 spos sshd[5182]: Received disconnect from 2a01:a040:2002:8051:343b:aaf9:fb21:b4f0 port 51884:11: disconnected by user
+Oct 31 14:17:12 spos sshd[5182]: Disconnected from user malyl 2a01:a040:2002:8051:343b:aaf9:fb21:b4f0 port 51884
+Oct 31 14:23:23 spos sshd[62150]: Accepted publickey for malyl from 2a01:a040:2002:8051:343b:aaf9:fb21:b4f0 port 52870 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Oct 31 14:23:27 spos su[62157]: malyl to root on /dev/pts/0
+Oct 31 14:25:01 spos sshd[62152]: Received disconnect from 2a01:a040:2002:8051:343b:aaf9:fb21:b4f0 port 52870:11: disconnected by user
+Oct 31 14:25:01 spos sshd[62152]: Disconnected from user malyl 2a01:a040:2002:8051:343b:aaf9:fb21:b4f0 port 52870
+Nov  1 01:40:51 spos sshd[72725]: Connection closed by 192.168.5.1 port 14493 [preauth]
+Nov  1 14:18:42 spos sshd[84946]: Connection closed by 192.168.5.1 port 19431 [preauth]
+Nov  1 17:25:58 spos sshd[87820]: Accepted publickey for malyl from 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 59702 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  1 18:02:50 spos sshd[87822]: Received disconnect from 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 59702:11: disconnected by user
+Nov  1 18:02:50 spos sshd[87822]: Disconnected from user malyl 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 59702
+Nov  1 19:46:21 spos sshd[89979]: Accepted publickey for malyl from 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 33902 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  1 19:46:27 spos su[89989]: malyl to root on /dev/pts/0
+Nov  1 19:52:18 spos sshd[89981]: Received disconnect from 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 33902:11: disconnected by user
+Nov  1 19:52:18 spos sshd[89981]: Disconnected from user malyl 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 33902
+Nov  1 20:28:26 spos sshd[92955]: Accepted publickey for malyl from 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 37160 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  1 20:28:29 spos su[92965]: malyl to root on /dev/pts/0
+Nov  1 20:38:31 spos sshd[93456]: Accepted publickey for huseko from 2a01:6340:2:501::20 port 13642 ssh2: RSA SHA256:AGgyWKWavwlvZa/mw2yVqGr89N7CO2od4KGYrQD+5OA
+Nov  1 20:40:38 spos sshd[93499]: Accepted publickey for huseko from 2a0b:f4c2:4::106 port 10555 ssh2: RSA SHA256:AGgyWKWavwlvZa/mw2yVqGr89N7CO2od4KGYrQD+5OA
+Nov  1 20:41:23 spos sshd[93516]: Accepted publickey for huseko from 2a0b:f4c2:4::106 port 24697 ssh2: RSA SHA256:AGgyWKWavwlvZa/mw2yVqGr89N7CO2od4KGYrQD+5OA
+Nov  1 20:43:17 spos sshd[93548]: Accepted publickey for huseko from 2a0b:f4c2:4::106 port 26809 ssh2: RSA SHA256:AGgyWKWavwlvZa/mw2yVqGr89N7CO2od4KGYrQD+5OA
+Nov  1 20:56:21 spos sshd[92957]: Received disconnect from 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 37160:11: disconnected by user
+Nov  1 20:56:21 spos sshd[92957]: Disconnected from user malyl 2a01:a040:2002:8041:974f:5caa:94a1:e0f0 port 37160
+Nov  2 02:56:24 spos sshd[99294]: Connection closed by 192.168.5.1 port 48627 [preauth]
+Nov  2 03:18:28 spos sshd[99964]: Connection closed by 2a06:4880:5000::60 port 50731
+Nov  2 03:18:28 spos sshd[99968]: Connection closed by 2a06:4880:5000::60 port 39901 [preauth]
+Nov  2 15:34:09 spos sshd[11600]: Connection closed by 192.168.5.1 port 19032 [preauth]
+Nov  2 19:15:32 spos sshd[15005]: Accepted publickey for jezj from 2a09:bac1:1da0:278::1f:54 port 32994 ssh2: RSA SHA256:xfTH2bsq+Eyq33xE3roaaRQqruWxrkCntY9H48NPBx4
+Nov  3 04:12:00 spos sshd[23715]: Connection closed by 192.168.5.1 port 39744 [preauth]
+Nov  3 12:37:32 spos sshd[31476]: Accepted publickey for malyl from 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 44964 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  3 12:37:36 spos su[31486]: malyl to root on /dev/pts/0
+Nov  3 12:37:57 spos sshd[31478]: Received disconnect from 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 44964:11: disconnected by user
+Nov  3 12:37:57 spos sshd[31478]: Disconnected from user malyl 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 44964
+Nov  3 15:43:52 spos sshd[34513]: Accepted publickey for malyl from 2a01:a040:2002:8041:faaf:7c92:3129:ec3e port 56990 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Nov  3 16:49:52 spos sshd[35534]: Connection closed by 192.168.5.1 port 10535 [preauth]
+Nov  3 21:50:28 spos sshd[40151]: Accepted publickey for kovarikr from 2a09:bac5:2796:137::1f:98 port 56192 ssh2: RSA SHA256:v2EJ22eBcqKWbA0GeT/itcap6CmsTPwVEyV58ANF+U8
+Nov  3 21:58:13 spos sshd[40281]: Accepted publickey for kovarikr from 2a09:bac5:2a95:137::1f:98 port 20872 ssh2: RSA SHA256:v2EJ22eBcqKWbA0GeT/itcap6CmsTPwVEyV58ANF+U8
+Nov  3 21:59:24 spos sshd[40304]: Accepted publickey for malyl from 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 37614 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  3 21:59:42 spos su[40319]: malyl to root on /dev/pts/1
+Nov  3 22:00:23 spos sshd[40306]: Received disconnect from 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 37614:11: disconnected by user
+Nov  3 22:00:23 spos sshd[40306]: Disconnected from user malyl 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 37614
+Nov  3 22:02:09 spos sshd[40572]: Accepted publickey for malyl from 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 56416 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  3 22:02:12 spos su[40582]: malyl to root on /dev/pts/0
+Nov  3 22:02:50 spos sshd[40574]: Received disconnect from 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 56416:11: disconnected by user
+Nov  3 22:02:50 spos sshd[40574]: Disconnected from user malyl 2a01:a040:2002:8041:133b:ac33:61e0:ba42 port 56416
+Nov  3 22:04:58 spos sshd[40812]: Accepted publickey for rohacekd from 2a09:bac5:2795:137::1f:9c port 39304 ssh2: RSA SHA256:FMsdf81T67jl4/pGcDJagJHzKnzK/qHo9To2xlhPWUs
+Nov  4 05:27:44 spos sshd[48104]: Connection closed by 192.168.5.1 port 14627 [preauth]
+Nov  4 09:54:04 spos sshd[52182]: Accepted publickey for malyl from 2a09:bac1:1dc0:18::1f:98 port 64358 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Nov  4 12:57:32 spos sshd[55013]: Accepted publickey for malyl from 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 46936 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Nov  4 12:59:41 spos su[55052]: malyl to root on /dev/pts/0
+Nov  4 13:04:13 spos su[55363]: malyl to malylu on /dev/pts/0
+Nov  4 13:20:24 spos su[56287]: BAD SU malylu to root on /dev/pts/0
+Nov  4 13:20:37 spos su[56295]: malyl to root on /dev/pts/0
+Nov  4 13:52:10 spos sshd[55015]: Received disconnect from 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 46936:11: disconnected by user
+Nov  4 13:52:10 spos sshd[55015]: Disconnected from user malyl 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 46936
+Nov  4 13:52:18 spos sshd[57399]: Accepted publickey for malylu from 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 43548 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Nov  4 13:52:19 spos su[57405]: BAD SU malylu to root on /dev/pts/0
+Nov  4 13:55:22 spos sshd[57401]: Received disconnect from 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 43548:11: disconnected by user
+Nov  4 13:55:22 spos sshd[57401]: Disconnected from user malylu 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 43548
+Nov  4 13:55:25 spos sshd[57518]: Accepted publickey for malyl from 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 51072 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Nov  4 13:55:30 spos su[57528]: malyl to root on /dev/pts/0
+Nov  4 13:58:33 spos sshd[57520]: Received disconnect from 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 51072:11: disconnected by user
+Nov  4 13:58:33 spos sshd[57520]: Disconnected from user malyl 2a01:a040:2002:8051:ee71:7dc5:80a9:d8be port 51072
+Nov  4 18:05:26 spos sshd[65847]: Connection closed by 192.168.5.1 port 13317 [preauth]
+Nov  5 03:20:15 spos sshd[74709]: Connection closed by 2a06:4880:9000::b1 port 38441
+Nov  5 03:20:15 spos sshd[74710]: Connection closed by 2a06:4880:9000::b1 port 41561 [preauth]
+Nov  5 06:42:41 spos sshd[77945]: Connection closed by 192.168.5.1 port 40960 [preauth]
+Nov  5 19:19:56 spos sshd[89574]: Connection closed by 192.168.5.1 port 5271 [preauth]
+Nov  5 20:18:22 spos sshd[90477]: Accepted publickey for malyl from 2a01:a040:2002:8041:b118:7fa7:ca0e:48e7 port 52278 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  5 20:18:26 spos su[90484]: malyl to root on /dev/pts/0
+Nov  5 20:29:24 spos sshd[90479]: Received disconnect from 2a01:a040:2002:8041:b118:7fa7:ca0e:48e7 port 52278:11: disconnected by user
+Nov  5 20:29:24 spos sshd[90479]: Disconnected from user malyl 2a01:a040:2002:8041:b118:7fa7:ca0e:48e7 port 52278
+Nov  6 07:57:17 spos sshd[3692]: Connection closed by 192.168.5.1 port 51085 [preauth]
+Nov  6 09:00:29 spos sshd[4668]: error: Received disconnect from 2a09:bac5:2796:137::1f:53 port 39834:14: No supported authentication methods available [preauth]
+Nov  6 09:00:29 spos sshd[4668]: Disconnected from authenticating user lasikoval 2a09:bac5:2796:137::1f:53 port 39834 [preauth]
+Nov  6 09:01:08 spos sshd[4678]: error: Received disconnect from 2a09:bac5:2790:137::1f:53 port 31620:14: No supported authentication methods available [preauth]
+Nov  6 09:01:08 spos sshd[4678]: Disconnected from authenticating user lasikoval 2a09:bac5:2790:137::1f:53 port 31620 [preauth]
+Nov  6 09:04:29 spos sshd[4729]: Invalid user lasikova from 2a09:bac5:2796:137::1f:53 port 58168
+Nov  6 09:04:34 spos sshd[4729]: error: Received disconnect from 2a09:bac5:2796:137::1f:53 port 58168:14: No supported authentication methods available [preauth]
+Nov  6 09:04:34 spos sshd[4729]: Disconnected from invalid user lasikova 2a09:bac5:2796:137::1f:53 port 58168 [preauth]
+Nov  6 09:05:30 spos sshd[4747]: Invalid user lasikova from 2a09:bac5:2792:137::1f:53 port 41926
+Nov  6 09:05:30 spos sshd[4747]: error: Received disconnect from 2a09:bac5:2792:137::1f:53 port 41926:14: No supported authentication methods available [preauth]
+Nov  6 09:05:30 spos sshd[4747]: Disconnected from invalid user lasikova 2a09:bac5:2792:137::1f:53 port 41926 [preauth]
+Nov  6 09:05:52 spos sshd[4755]: error: Received disconnect from 2a09:bac5:2797:137::1f:53 port 45710:14: No supported authentication methods available [preauth]
+Nov  6 09:05:52 spos sshd[4755]: Disconnected from authenticating user lasikoval 2a09:bac5:2797:137::1f:53 port 45710 [preauth]
+Nov  6 09:09:30 spos sshd[4818]: Invalid user lasikova from 2a09:bac1:1da0:278::1f:53 port 35754
+Nov  6 09:09:33 spos sshd[4818]: error: Received disconnect from 2a09:bac1:1da0:278::1f:53 port 35754:14: No supported authentication methods available [preauth]
+Nov  6 09:09:33 spos sshd[4818]: Disconnected from invalid user lasikova 2a09:bac1:1da0:278::1f:53 port 35754 [preauth]
+Nov  6 09:10:10 spos sshd[4830]: Invalid user Lasikova from 2a09:bac1:1da0:278::1f:53 port 38392
+Nov  6 09:10:12 spos sshd[4830]: error: Received disconnect from 2a09:bac1:1da0:278::1f:53 port 38392:14: No supported authentication methods available [preauth]
+Nov  6 09:10:12 spos sshd[4830]: Disconnected from invalid user Lasikova 2a09:bac1:1da0:278::1f:53 port 38392 [preauth]
+Nov  6 09:12:01 spos sshd[4865]: Invalid user lasikova from 2a09:bac1:1de0:278::1f:53 port 31048
+Nov  6 09:12:01 spos sshd[4865]: error: Received disconnect from 2a09:bac1:1de0:278::1f:53 port 31048:14: No supported authentication methods available [preauth]
+Nov  6 09:12:01 spos sshd[4865]: Disconnected from invalid user lasikova 2a09:bac1:1de0:278::1f:53 port 31048 [preauth]
+Nov  6 09:12:37 spos sshd[4878]: Connection closed by 2a09:bac5:2796:137::1f:53 port 45508 [preauth]
+Nov  6 09:13:24 spos sshd[4891]: Invalid user lasikova from 2a09:bac1:1da0:278::1f:53 port 59634
+Nov  6 09:13:27 spos sshd[4891]: error: Received disconnect from 2a09:bac1:1da0:278::1f:53 port 59634:14: No supported authentication methods available [preauth]
+Nov  6 09:13:27 spos sshd[4891]: Disconnected from invalid user lasikova 2a09:bac1:1da0:278::1f:53 port 59634 [preauth]
+Nov  6 09:14:03 spos sshd[4899]: Connection closed by 2a09:bac1:1da0:278::1f:53 port 50988 [preauth]
+Nov  6 09:15:53 spos sshd[4931]: Connection closed by 2a09:bac5:2790:137::1f:53 port 50018 [preauth]
+Nov  6 09:16:11 spos sshd[4937]: Accepted publickey for kovarikr from 2a09:bac5:2791:137::1f:53 port 59856 ssh2: RSA SHA256:v2EJ22eBcqKWbA0GeT/itcap6CmsTPwVEyV58ANF+U8
+Nov  6 09:16:52 spos sshd[4953]: Invalid user lasikova from 2a09:bac5:2796:137::1f:53 port 22786
+Nov  6 09:16:55 spos sshd[4953]: error: Received disconnect from 2a09:bac5:2796:137::1f:53 port 22786:14: No supported authentication methods available [preauth]
+Nov  6 09:16:55 spos sshd[4953]: Disconnected from invalid user lasikova 2a09:bac5:2796:137::1f:53 port 22786 [preauth]
+Nov  6 09:17:07 spos sshd[4958]: error: Received disconnect from 2a09:bac5:2797:137::1f:53 port 31822:14: No supported authentication methods available [preauth]
+Nov  6 09:17:07 spos sshd[4958]: Disconnected from authenticating user lasikoval 2a09:bac5:2797:137::1f:53 port 31822 [preauth]
+Nov  6 09:20:40 spos sshd[5012]: error: Received disconnect from 2a09:bac5:2793:137::1f:53 port 21470:14: No supported authentication methods available [preauth]
+Nov  6 09:20:40 spos sshd[5012]: Disconnected from authenticating user lasikoval 2a09:bac5:2793:137::1f:53 port 21470 [preauth]
+Nov  6 09:20:57 spos sshd[5017]: error: Received disconnect from 2a09:bac5:2790:137::1f:53 port 28264:14: No supported authentication methods available [preauth]
+Nov  6 09:20:57 spos sshd[5017]: Disconnected from authenticating user lasikoval 2a09:bac5:2790:137::1f:53 port 28264 [preauth]
+Nov  6 09:21:11 spos sshd[5025]: Invalid user lasikova from 2a09:bac5:2797:137::1f:53 port 59824
+Nov  6 09:21:12 spos sshd[5025]: error: Received disconnect from 2a09:bac5:2797:137::1f:53 port 59824:14: No supported authentication methods available [preauth]
+Nov  6 09:21:12 spos sshd[5025]: Disconnected from invalid user lasikova 2a09:bac5:2797:137::1f:53 port 59824 [preauth]
+Nov  6 09:22:41 spos sshd[5056]: error: Received disconnect from 2a09:bac5:2796:137::1f:53 port 34250:14: No supported authentication methods available [preauth]
+Nov  6 09:22:41 spos sshd[5056]: Disconnected from authenticating user lasikoval 2a09:bac5:2796:137::1f:53 port 34250 [preauth]
+Nov  6 09:22:56 spos sshd[5058]: Invalid user lasikova from 2a09:bac5:2796:137::1f:53 port 18730
+Nov  6 09:22:57 spos sshd[5058]: error: Received disconnect from 2a09:bac5:2796:137::1f:53 port 18730:14: No supported authentication methods available [preauth]
+Nov  6 09:22:57 spos sshd[5058]: Disconnected from invalid user lasikova 2a09:bac5:2796:137::1f:53 port 18730 [preauth]
+Nov  6 09:25:20 spos sshd[5098]: Accepted publickey for kovarikr from 2a09:bac5:2797:137::1f:53 port 10492 ssh2: RSA SHA256:v2EJ22eBcqKWbA0GeT/itcap6CmsTPwVEyV58ANF+U8
+Nov  6 09:27:01 spos sshd[5126]: Invalid user lasikova from 2a09:bac5:2795:137::1f:53 port 12810
+Nov  6 09:27:07 spos sshd[5126]: error: Received disconnect from 2a09:bac5:2795:137::1f:53 port 12810:14: No supported authentication methods available [preauth]
+Nov  6 09:27:07 spos sshd[5126]: Disconnected from invalid user lasikova 2a09:bac5:2795:137::1f:53 port 12810 [preauth]
+Nov  6 09:27:55 spos sshd[5136]: Invalid user lasikovs from 2a09:bac5:2796:137::1f:53 port 20926
+Nov  6 09:27:56 spos sshd[5136]: error: Received disconnect from 2a09:bac5:2796:137::1f:53 port 20926:14: No supported authentication methods available [preauth]
+Nov  6 09:27:56 spos sshd[5136]: Disconnected from invalid user lasikovs 2a09:bac5:2796:137::1f:53 port 20926 [preauth]
+Nov  6 09:28:08 spos sshd[5146]: Invalid user lasikova from 2a09:bac1:1d80:278::1f:53 port 10006
+Nov  6 09:28:09 spos sshd[5146]: error: Received disconnect from 2a09:bac1:1d80:278::1f:53 port 10006:14: No supported authentication methods available [preauth]
+Nov  6 09:28:09 spos sshd[5146]: Disconnected from invalid user lasikova 2a09:bac1:1d80:278::1f:53 port 10006 [preauth]
+Nov  6 09:28:56 spos sshd[5160]: error: Received disconnect from 2a09:bac5:2790:137::1f:53 port 9520:14: No supported authentication methods available [preauth]
+Nov  6 09:28:56 spos sshd[5160]: Disconnected from authenticating user lasikoval 2a09:bac5:2790:137::1f:53 port 9520 [preauth]
+Nov  6 09:29:08 spos sshd[5164]: Invalid user lasikova from 2a09:bac1:1dc0:278::1f:53 port 20144
+Nov  6 09:29:09 spos sshd[5164]: error: Received disconnect from 2a09:bac1:1dc0:278::1f:53 port 20144:14: No supported authentication methods available [preauth]
+Nov  6 09:29:09 spos sshd[5164]: Disconnected from invalid user lasikova 2a09:bac1:1dc0:278::1f:53 port 20144 [preauth]
+Nov  6 09:29:57 spos sshd[5178]: Invalid user admin from 2a09:bac5:2796:137::1f:53 port 11150
+Nov  6 09:29:58 spos sshd[5178]: error: Received disconnect from 2a09:bac5:2796:137::1f:53 port 11150:14: No supported authentication methods available [preauth]
+Nov  6 09:29:58 spos sshd[5178]: Disconnected from invalid user admin 2a09:bac5:2796:137::1f:53 port 11150 [preauth]
+Nov  6 09:30:55 spos sshd[5196]: Invalid user LasikovaLucie from 2a09:bac1:1da0:278::1f:53 port 45352
+Nov  6 09:30:57 spos sshd[5196]: error: Received disconnect from 2a09:bac1:1da0:278::1f:53 port 45352:14: No supported authentication methods available [preauth]
+Nov  6 09:30:57 spos sshd[5196]: Disconnected from invalid user LasikovaLucie 2a09:bac1:1da0:278::1f:53 port 45352 [preauth]
+Nov  6 09:31:16 spos sshd[5204]: Invalid user lasikova lucie from 2a09:bac5:2790:137::1f:53 port 41686
+Nov  6 09:31:18 spos sshd[5204]: error: Received disconnect from 2a09:bac5:2790:137::1f:53 port 41686:14: No supported authentication methods available [preauth]
+Nov  6 09:31:18 spos sshd[5204]: Disconnected from invalid user lasikova lucie 2a09:bac5:2790:137::1f:53 port 41686 [preauth]
+Nov  6 09:31:38 spos sshd[5211]: Invalid user Lasikova Lucie from 2a09:bac5:2790:137::1f:53 port 51024
+Nov  6 09:31:41 spos sshd[5211]: error: Received disconnect from 2a09:bac5:2790:137::1f:53 port 51024:14: No supported authentication methods available [preauth]
+Nov  6 09:31:41 spos sshd[5211]: Disconnected from invalid user Lasikova Lucie 2a09:bac5:2790:137::1f:53 port 51024 [preauth]
+Nov  6 09:32:34 spos sshd[5227]: Invalid user laksodf from 2a09:bac5:2795:137::1f:53 port 14256
+Nov  6 09:32:34 spos sshd[5227]: error: Received disconnect from 2a09:bac5:2795:137::1f:53 port 14256:14: No supported authentication methods available [preauth]
+Nov  6 09:32:34 spos sshd[5227]: Disconnected from invalid user laksodf 2a09:bac5:2795:137::1f:53 port 14256 [preauth]
+Nov  6 09:33:09 spos sshd[5232]: error: Received disconnect from 2a09:bac5:2796:137::1f:53 port 29942:14: No supported authentication methods available [preauth]
+Nov  6 09:33:09 spos sshd[5232]: Disconnected from authenticating user lasikoval 2a09:bac5:2796:137::1f:53 port 29942 [preauth]
+Nov  6 09:33:21 spos sshd[5249]: Invalid user admin from 2a09:bac5:2797:137::1f:53 port 42992
+Nov  6 09:33:23 spos sshd[5249]: error: Received disconnect from 2a09:bac5:2797:137::1f:53 port 42992:14: No supported authentication methods available [preauth]
+Nov  6 09:33:23 spos sshd[5249]: Disconnected from invalid user admin 2a09:bac5:2797:137::1f:53 port 42992 [preauth]
+Nov  6 09:33:36 spos sshd[5254]: Invalid user Admin from 2a09:bac1:1dc0:278::1f:53 port 10756
+Nov  6 09:33:38 spos sshd[5254]: error: Received disconnect from 2a09:bac1:1dc0:278::1f:53 port 10756:14: No supported authentication methods available [preauth]
+Nov  6 09:33:38 spos sshd[5254]: Disconnected from invalid user Admin 2a09:bac1:1dc0:278::1f:53 port 10756 [preauth]
+Nov  6 09:33:59 spos sshd[5259]: Invalid user lasikovalucie from 2a09:bac5:2793:137::1f:53 port 13606
+Nov  6 09:34:01 spos sshd[5259]: error: Received disconnect from 2a09:bac5:2793:137::1f:53 port 13606:14: No supported authentication methods available [preauth]
+Nov  6 09:34:01 spos sshd[5259]: Disconnected from invalid user lasikovalucie 2a09:bac5:2793:137::1f:53 port 13606 [preauth]
+Nov  6 09:36:28 spos sshd[5299]: error: Received disconnect from 2a09:bac5:2790:137::1f:53 port 49212:14: No supported authentication methods available [preauth]
+Nov  6 09:36:28 spos sshd[5299]: Disconnected from authenticating user lasikoval 2a09:bac5:2790:137::1f:53 port 49212 [preauth]
+Nov  6 09:38:15 spos sshd[5326]: Invalid user Admin from 2a09:bac5:2791:137::1f:53 port 33654
+Nov  6 09:38:18 spos sshd[5326]: error: Received disconnect from 2a09:bac5:2791:137::1f:53 port 33654:14: No supported authentication methods available [preauth]
+Nov  6 09:38:18 spos sshd[5326]: Disconnected from invalid user Admin 2a09:bac5:2791:137::1f:53 port 33654 [preauth]
+Nov  6 09:38:35 spos sshd[5331]: Invalid user Lasikova from 2a09:bac5:2790:137::1f:53 port 28062
+Nov  6 09:38:38 spos sshd[5331]: error: Received disconnect from 2a09:bac5:2790:137::1f:53 port 28062:14: No supported authentication methods available [preauth]
+Nov  6 09:38:38 spos sshd[5331]: Disconnected from invalid user Lasikova 2a09:bac5:2790:137::1f:53 port 28062 [preauth]
+Nov  6 09:39:19 spos sshd[5344]: error: Received disconnect from 2a09:bac1:1da0:278::1f:53 port 15250:14: No supported authentication methods available [preauth]
+Nov  6 09:39:19 spos sshd[5344]: Disconnected from authenticating user lasikoval 2a09:bac1:1da0:278::1f:53 port 15250 [preauth]
+Nov  6 09:50:43 spos sshd[5516]: error: Received disconnect from 2a09:bac1:1da0:278::1f:53 port 50664:14: No supported authentication methods available [preauth]
+Nov  6 09:50:43 spos sshd[5516]: Disconnected from authenticating user lasikoval 2a09:bac1:1da0:278::1f:53 port 50664 [preauth]
+Nov  6 09:51:10 spos sshd[5528]: Accepted publickey for lasikoval from 2a09:bac1:1da0:278::1f:53 port 54928 ssh2: RSA SHA256:oMjrAq7RCeH2uy31KyqR34eS5cRvBTWzdYk9jtwl6qM
+Nov  6 09:55:40 spos sudo[5606]: lasikoval : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/lasikoval/public_html ; USER=root ; COMMAND=/usr/bin/cd index.html
+Nov  6 16:35:18 spos sshd[11769]: Accepted publickey for malyl from 2a01:a040:2002:8051:26f5:474a:fdbc:aa3a port 38242 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Nov  6 16:35:22 spos su[11776]: malyl to root on /dev/pts/0
+Nov  6 16:41:58 spos sshd[11771]: Received disconnect from 2a01:a040:2002:8051:26f5:474a:fdbc:aa3a port 38242:11: disconnected by user
+Nov  6 16:41:58 spos sshd[11771]: Disconnected from user malyl 2a01:a040:2002:8051:26f5:474a:fdbc:aa3a port 38242
+Nov  6 16:49:28 spos sshd[12232]: Accepted publickey for malyl from 2a01:a040:2002:8051:26f5:474a:fdbc:aa3a port 34588 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Nov  6 16:49:31 spos su[12242]: malyl to root on /dev/pts/0
+Nov  6 16:59:22 spos sshd[12234]: Received disconnect from 2a01:a040:2002:8051:26f5:474a:fdbc:aa3a port 34588:11: disconnected by user
+Nov  6 16:59:22 spos sshd[12234]: Disconnected from user malyl 2a01:a040:2002:8051:26f5:474a:fdbc:aa3a port 34588
+Nov  6 18:05:51 spos sshd[13595]: Accepted publickey for malyl from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 33450 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  6 18:05:55 spos su[13602]: malyl to root on /dev/pts/0
+Nov  6 18:17:42 spos sshd[13597]: Received disconnect from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 33450:11: disconnected by user
+Nov  6 18:17:42 spos sshd[13597]: Disconnected from user malyl 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 33450
+Nov  6 18:29:20 spos sshd[14160]: Accepted publickey for malyl from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 37802 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  6 18:29:24 spos su[14167]: malyl to root on /dev/pts/0
+Nov  6 18:36:18 spos sshd[14162]: Received disconnect from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 37802:11: disconnected by user
+Nov  6 18:36:18 spos sshd[14162]: Disconnected from user malyl 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 37802
+Nov  6 18:37:09 spos sshd[17300]: Accepted publickey for malyl from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 46892 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  6 18:37:13 spos su[17309]: malyl to root on /dev/pts/0
+Nov  6 18:48:29 spos sshd[17302]: Received disconnect from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 46892:11: disconnected by user
+Nov  6 18:48:29 spos sshd[17302]: Disconnected from user malyl 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 46892
+Nov  6 18:51:40 spos sshd[17856]: Accepted publickey for malyl from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 37028 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  6 18:51:44 spos su[17863]: malyl to root on /dev/pts/0
+Nov  6 19:59:21 spos sshd[17858]: Received disconnect from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 37028:11: disconnected by user
+Nov  6 19:59:21 spos sshd[17858]: Disconnected from user malyl 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 37028
+Nov  6 19:59:42 spos sshd[19308]: Accepted publickey for malyl from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 50816 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  6 19:59:46 spos su[19315]: malyl to root on /dev/pts/0
+Nov  6 20:09:20 spos sshd[19310]: Received disconnect from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 50816:11: disconnected by user
+Nov  6 20:09:20 spos sshd[19310]: Disconnected from user malyl 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 50816
+Nov  6 20:14:13 spos sshd[19785]: Accepted publickey for malyl from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 35412 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  6 20:14:17 spos su[19792]: malyl to root on /dev/pts/0
+Nov  6 20:34:54 spos sshd[20259]: Connection closed by 192.168.5.1 port 57305 [preauth]
+Nov  6 22:41:41 spos sshd[19787]: Received disconnect from 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 35412:11: disconnected by user
+Nov  6 22:41:41 spos sshd[19787]: Disconnected from user malyl 2a01:a040:2002:8041:3b63:30cc:3446:f3af port 35412
+Nov  7 09:12:30 spos sshd[32388]: Connection closed by 192.168.5.1 port 30972 [preauth]
+Nov  7 09:37:57 spos sshd[32767]: Accepted publickey for malyl from 2a01:a040:2002:8051:5c1b:f899:baf4:a46d port 37440 ssh2: RSA SHA256:AjVarPIVmk0Nk3e6RYXf7gQAP2pUVNhCdseWXCWi2yc
+Nov  7 09:38:00 spos su[32774]: malyl to root on /dev/pts/0
+Nov  7 11:01:25 spos sshd[32769]: Received disconnect from 2a01:a040:2002:8051:5c1b:f899:baf4:a46d port 37440:11: disconnected by user
+Nov  7 11:01:25 spos sshd[32769]: Disconnected from user malyl 2a01:a040:2002:8051:5c1b:f899:baf4:a46d port 37440
+Nov  7 18:59:59 spos sshd[42410]: Accepted publickey for malyl from 2a09:bac5:27ab:137::1f:6a port 50238 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Nov  7 19:00:56 spos su[42447]: malyl to root on /dev/pts/0
+Nov  7 20:51:29 spos sshd[45547]: Accepted publickey for malyl from 2a01:a040:2002:8041:1d1f:59f3:3b75:9852 port 49182 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Nov  7 20:53:55 spos sshd[45549]: Received disconnect from 2a01:a040:2002:8041:1d1f:59f3:3b75:9852 port 49182:11: Normal Shutdown
+Nov  7 20:53:55 spos sshd[45549]: Disconnected from user malyl 2a01:a040:2002:8041:1d1f:59f3:3b75:9852 port 49182
+Nov  7 20:56:08 spos sshd[45628]: Accepted publickey for malyl from 2a01:a040:2002:8041:536e:3383:fc2c:1cc2 port 52396 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  7 20:56:15 spos su[45642]: malyl to root on /dev/pts/0
+Nov  7 20:57:35 spos sshd[46124]: Accepted publickey for malyl from 2a01:a040:2002:8041:3b79:652e:d941:164e port 36548 ssh2: ED25519 SHA256:rM0JPnm3iN3NUYxo2HVPelSxO78Eq8nof6fq20baDhs
+Nov  7 20:58:16 spos sshd[46142]: Accepted publickey for malyl from 2a01:a040:2002:8041:1d1f:59f3:3b75:9852 port 49189 ssh2: ED25519 SHA256:iWuM2RLPo1NfWHfmB9k4d+eXiE4Dj2ek9hkYoBi5OC8
+Nov  7 21:06:08 spos sshd[46677]: Invalid user vagrant from 2a09:bac5:2794:137::1f:84 port 37774
+Nov  7 21:06:32 spos sshd[46677]: error: Received disconnect from 2a09:bac5:2794:137::1f:84 port 37774:14: No supported authentication methods available [preauth]
+Nov  7 21:06:32 spos sshd[46677]: Disconnected from invalid user vagrant 2a09:bac5:2794:137::1f:84 port 37774 [preauth]
+Nov  7 21:07:53 spos sshd[46718]: Invalid user vagrant from 2a09:bac5:2792:137::1f:84 port 52262
+Nov  7 21:07:58 spos sshd[46718]: error: Received disconnect from 2a09:bac5:2792:137::1f:84 port 52262:14: No supported authentication methods available [preauth]
+Nov  7 21:07:58 spos sshd[46718]: Disconnected from invalid user vagrant 2a09:bac5:2792:137::1f:84 port 52262 [preauth]
+Nov  7 21:09:16 spos sshd[46742]: Invalid user vagrant from 2a09:bac1:1dc0:278::1f:84 port 18244
+Nov  7 21:09:20 spos sshd[46742]: error: Received disconnect from 2a09:bac1:1dc0:278::1f:84 port 18244:14: No supported authentication methods available [preauth]
+Nov  7 21:09:20 spos sshd[46742]: Disconnected from invalid user vagrant 2a09:bac1:1dc0:278::1f:84 port 18244 [preauth]
+Nov  7 21:09:49 spos sshd[46750]: Accepted publickey for brizat from 2a09:bac5:2794:137::1f:84 port 53528 ssh2: RSA SHA256:2N+yvCG/BVUtfjxPWX5D66tkpqmkMW1kHzu8zpfXDqI
+Nov  7 21:20:38 spos sshd[46144]: Received disconnect from 2a01:a040:2002:8041:1d1f:59f3:3b75:9852 port 49189:11: Normal Shutdown
+Nov  7 21:20:38 spos sshd[46144]: Disconnected from user malyl 2a01:a040:2002:8041:1d1f:59f3:3b75:9852 port 49189
+Nov  7 21:22:50 spos sshd[47157]: Accepted publickey for eflerj from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 51238 ssh2: RSA SHA256:rdkwhgVteRk8ZHSRpqFU34RKDkUYzdXIqU1/JHy64Z4
+Nov  7 21:23:19 spos sudo[47194]:   eflerj : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/eflerj/public_html ; USER=root ; COMMAND=/usr/local/bin/nano index.html
+Nov  7 21:36:33 spos sshd[47485]: Connection closed by authenticating user brizat 2a09:bac5:2794:137::1f:43 port 46828 [preauth]
+Nov  7 21:36:55 spos sshd[47496]: Connection closed by authenticating user brizat 2a09:bac5:2794:137::1f:43 port 47906 [preauth]
+Nov  7 21:37:16 spos sshd[47506]: Connection closed by authenticating user brizat 2a09:bac1:1d80:278::1f:43 port 62314 [preauth]
+Nov  7 21:38:11 spos sshd[47518]: Invalid user hartychd from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 51845
+Nov  7 21:38:12 spos sshd[47518]: error: Received disconnect from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 51845:14: No supported authentication methods available [preauth]
+Nov  7 21:38:12 spos sshd[47518]: Disconnected from invalid user hartychd 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 51845 [preauth]
+Nov  7 21:38:22 spos sshd[47524]: Accepted publickey for eflerj from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 51850 ssh2: RSA SHA256:rdkwhgVteRk8ZHSRpqFU34RKDkUYzdXIqU1/JHy64Z4
+Nov  7 21:39:40 spos sshd[47550]: Accepted publickey for brizat from 2a09:bac1:1de0:278::1f:43 port 35962 ssh2: RSA SHA256:2N+yvCG/BVUtfjxPWX5D66tkpqmkMW1kHzu8zpfXDqI
+Nov  7 21:40:48 spos sshd[45632]: Received disconnect from 2a01:a040:2002:8041:536e:3383:fc2c:1cc2 port 52396:11: disconnected by user
+Nov  7 21:40:48 spos sshd[45632]: Disconnected from user malyl 2a01:a040:2002:8041:536e:3383:fc2c:1cc2 port 52396
+Nov  7 21:42:51 spos sshd[47806]: Accepted publickey for brizat from 2a09:bac5:2794:137::1f:43 port 26164 ssh2: RSA SHA256:2N+yvCG/BVUtfjxPWX5D66tkpqmkMW1kHzu8zpfXDqI
+Nov  7 21:43:38 spos sshd[47983]: Accepted publickey for brizat from 2a09:bac1:1dc0:278::1f:43 port 58332 ssh2: RSA SHA256:2N+yvCG/BVUtfjxPWX5D66tkpqmkMW1kHzu8zpfXDqI
+Nov  7 21:45:29 spos sshd[48201]: Accepted publickey for brizat from 2a09:bac5:2795:137::1f:43 port 37502 ssh2: RSA SHA256:2N+yvCG/BVUtfjxPWX5D66tkpqmkMW1kHzu8zpfXDqI
+Nov  7 21:48:58 spos sshd[48406]: Accepted publickey for eflerj from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52138 ssh2: RSA SHA256:rdkwhgVteRk8ZHSRpqFU34RKDkUYzdXIqU1/JHy64Z4
+Nov  7 21:50:08 spos sshd[48432]: Connection closed by 192.168.5.1 port 16361 [preauth]
+Nov  7 22:00:13 spos sshd[48598]: Invalid user pepic from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52185
+Nov  7 22:00:13 spos sshd[48598]: Connection reset by invalid user pepic 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52185 [preauth]
+Nov  7 22:03:35 spos sshd[48646]: Invalid user hartychd from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52234
+Nov  7 22:03:35 spos sshd[48646]: Connection reset by invalid user hartychd 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52234 [preauth]
+Nov  7 22:03:44 spos sshd[48651]: Connection reset by authenticating user eflerj 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52235 [preauth]
+Nov  7 22:04:07 spos sshd[48658]: Connection reset by authenticating user eflerj 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52236 [preauth]
+Nov  7 22:11:11 spos sshd[48776]: Invalid user vagrant from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64043
+Nov  7 22:11:12 spos sshd[48776]: error: Received disconnect from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64043:14: No supported authentication methods available [preauth]
+Nov  7 22:11:12 spos sshd[48776]: Disconnected from invalid user vagrant 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64043 [preauth]
+Nov  7 22:11:33 spos sshd[48789]: Invalid user  from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64050
+Nov  7 22:11:40 spos sshd[48789]: error: Received disconnect from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64050:14: No supported authentication methods available [preauth]
+Nov  7 22:11:40 spos sshd[48789]: Disconnected from invalid user  2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64050 [preauth]
+Nov  7 22:11:56 spos sshd[48794]: Invalid user hartychd from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64054
+Nov  7 22:11:57 spos sshd[48794]: error: Received disconnect from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64054:14: No supported authentication methods available [preauth]
+Nov  7 22:11:57 spos sshd[48794]: Disconnected from invalid user hartychd 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64054 [preauth]
+Nov  7 22:12:25 spos sshd[48804]: Invalid user admin from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64061
+Nov  7 22:12:27 spos sshd[48804]: error: Received disconnect from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64061:14: No supported authentication methods available [preauth]
+Nov  7 22:12:27 spos sshd[48804]: Disconnected from invalid user admin 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64061 [preauth]
+Nov  7 22:12:51 spos sshd[48812]: Invalid user dominikhartych from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64066
+Nov  7 22:12:52 spos sshd[48812]: error: Received disconnect from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64066:14: No supported authentication methods available [preauth]
+Nov  7 22:12:52 spos sshd[48812]: Disconnected from invalid user dominikhartych 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64066 [preauth]
+Nov  7 22:14:33 spos sshd[48816]: Invalid user hartychd from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64067
+Nov  7 22:14:37 spos sshd[48816]: error: Received disconnect from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64067:14: No supported authentication methods available [preauth]
+Nov  7 22:14:37 spos sshd[48816]: Disconnected from invalid user hartychd 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64067 [preauth]
+Nov  7 22:16:42 spos sshd[48844]: error: Received disconnect from 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64078:14: No supported authentication methods available [preauth]
+Nov  7 22:16:42 spos sshd[48844]: Disconnected from authenticating user eflerj 2a00:102a:5005:bbb:e5ca:f583:73d5:36af port 64078 [preauth]
+Nov  7 22:21:53 spos sshd[48948]: Connection closed by 2a06:4880:7000::80 port 32995
+Nov  7 22:21:53 spos sshd[48949]: Connection closed by 2a06:4880:7000::80 port 56287 [preauth]
+Nov  7 22:23:11 spos sshd[48975]: Accepted publickey for eflerj from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52597 ssh2: RSA SHA256:rdkwhgVteRk8ZHSRpqFU34RKDkUYzdXIqU1/JHy64Z4
+Nov  7 22:25:01 spos sudo[49012]:   eflerj : user NOT in sudoers ; TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/su
+Nov  7 22:25:06 spos sudo[49021]:   eflerj : user NOT in sudoers ; TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/su
+Nov  7 22:29:56 spos login[49086]: 2 LOGIN FAILURES ON pts/0
+Nov  7 22:29:56 spos login[49086]: 2 LOGIN FAILURES ON pts/0, ^X
+Nov  7 22:30:07 spos login[49086]: 2 LOGIN FAILURES ON pts/0
+Nov  7 22:30:07 spos login[49086]: 2 LOGIN FAILURES ON pts/0, root
+Nov  7 22:30:07 spos login[49086]: login on pts/0 as eflerj
+Nov  7 22:30:30 spos sudo[49114]:   eflerj : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/eflerj ; USER=root ; COMMAND=/bin/cat /root/.ssh/authorized_keys
+Nov  7 22:33:39 spos sudo[49176]:   eflerj : user NOT in sudoers ; TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/ls
+Nov  7 22:51:57 spos sshd[49742]: error: Received disconnect from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52877:14: No supported authentication methods available [preauth]
+Nov  7 22:51:57 spos sshd[49742]: Disconnected from authenticating user operator 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52877 [preauth]
+Nov  7 22:52:20 spos sshd[49749]: error: Received disconnect from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52880:14: No supported authentication methods available [preauth]
+Nov  7 22:52:20 spos sshd[49749]: Disconnected from authenticating user daemon 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52880 [preauth]
+Nov  7 22:53:53 spos sshd[49760]: error: Received disconnect from 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52888:14: No supported authentication methods available [preauth]
+Nov  7 22:53:53 spos sshd[49760]: Disconnected from authenticating user malyl 2a00:1028:83bd:2dee:7c18:7323:2ab3:df19 port 52888 [preauth]
+Nov  8 06:01:38 spos sshd[56831]: Accepted publickey for malyl from 2a01:a040:2002:8041:3624:d7bf:42aa:d0e8 port 47692 ssh2: ED25519 SHA256:0ImwdCx87A+TLKIst3c/Sy0LhADJ9xGyuHdBdnWDLVg
+Nov  8 06:01:46 spos su[56841]: malyl to root on /dev/pts/0
