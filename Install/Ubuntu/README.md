@@ -24,10 +24,11 @@ dpkg -l > /tmp/unminimalize-package.deb
 
 diff -u /tmp/minimalize-package.deb /tmp/unminimalize-package.deb
 ```
-## Automatická instalace OS Linux Ubuntu pomocí Vagrant
+## Automatická instalace OS Linux Ubuntu 22.04 LTS pomocí Vagrant
 
 - Seznamte se s nástrojem [Vagrant](https://www.vagrantup.com)
-- Najděte si informace o Image na [Vagrant portale](https://portal.cloud.hashicorp.com/vagrant/discover)
+- Najděte si informace o Image - Box na [Vagrant portale](https://portal.cloud.hashicorp.com/vagrant/discover)
+- Budeme instalovat distribuci [Ubuntu](https://ubuntu.com)
 - Udělejte si klon tohoto projektu na Váš pracovní počítač
 - V PowerShell si vygenerujeme SSH klíče
 

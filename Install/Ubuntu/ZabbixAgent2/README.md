@@ -3,30 +3,21 @@ Repositories for teaching purposes at SPOS DK
 
 Repository pro vyuku na SPOS DK
 
-## Automatická instalace Zabbix Agent2 OS Linux Ubuntu and Web server Apache2
+## Automatická instalace Zabbix Agent2 na OS Linux Ubuntu
 
-- Vagrantfile obsahuje sekci pro aplikaci příkazů pro instalaci web serveru
-  [Apache](https://httpd.apache.org/) a [Zabbix Agent2](https://www.zabbix.com/).
+- Vagrantfile obsahuje sekci pro aplikaci příkazů pro instalaci monitorovacího
+[Zabbix Agent2](https://www.zabbix.com/).
 
-### Instalace Web server Apache2
-
-```console
-    sudo apt-get update
-    sudo apt-get install -y net-tools
-    sudo apt-get install -y apache2
-
-    sudo systemctl enable apache2.service
-    sudo systemctl restart apache2.service
-```
 ### Instalace Zabbix Agent2
 
 ```console
-    sudo apt-get update
-    sudo apt-get install -y net-tools
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest+ubuntu22.04_all.deb
+dpkg -i zabbix-release_latest+ubuntu22.04_all.deb
 
-    sudo apt-get install -y apache2
+apt-get update
+apt-get install -y zabbix-agent2 zabbix-agent2-plugin-*
 
-    sudo systemctl enable apache2.service
-    sudo systemctl restart apache2.service
+systemctl enable zabbix-agent2
+systemctl start zabbix-agent2
 ```
 ...

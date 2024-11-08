@@ -5,6 +5,8 @@ Repository pro vyuku na SPOS DK
 
 ## Install OS
 
+- Budeme instalovat OS [FreeBSD](https://www.freebsd.org/)
+
 Nainstalujte si OS [FreeBSD](https://www.freebsd.org/releases/14.1R/announce/)
 pomocí [Vagrantfile](https://app.vagrantup.com/freebsd/boxes/FreeBSD-14.1-RELEASE)
 Windows instalator [vagrant_2.4.1_windows_amd64.msi](https://releases.hashicorp.com/vagrant/2.4.1/vagrant_2.4.1_windows_amd64.msi)

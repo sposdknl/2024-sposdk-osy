@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
-# Unikatni hostname ubuntu (Lepší než hostname školní stanice)
-UNIQUE_HOSTNAME="ubuntu-$(uuidgen)"
+# Install uuid
+sduo dnf install uuid
+
+# Unikatni hostname rocky-linux (Lepší než hostname školní stanice)
+UNIQUE_HOSTNAME="rockylinux-$(uuidgen)"
 SHORT_HOSTNAME=$(echo $UNIQUE_HOSTNAME | cut -d'-' -f1,2)
 
-# # Konfigurace zabbix_agent2.conf
+# Konfigurace zabbix_agent2.conf
 sudo cp -v /etc/zabbix/zabbix_agent2.conf /etc/zabbix/zabbix_agent2.conf-orig
 sudo sed -i "s/Hostname=Zabbix server/Hostname=$SHORT_HOSTNAME/g" /etc/zabbix/zabbix_agent2.conf
 sudo sed -i 's/Server=127.0.0.1/Server=enceladus.pfsense.cz/g' /etc/zabbix/zabbix_agent2.conf
