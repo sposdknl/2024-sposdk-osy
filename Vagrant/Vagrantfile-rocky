@@ -12,8 +12,8 @@ Vagrant.configure("2") do |config|
     config.vm.define "rocky" do |rocky|
         rocky.vm.box = IMAGE_NAME
         rocky.vm.network "forwarded_port", guest: 22, host: 2203, host_ip: "127.0.0.1"
-	rocky.vm.network "private_network", ip: "192.168.24.1"
-        rocky.vm.hostname = "rocky-linux"
+	    rocky.vm.network "private_network", ip: "192.168.24.1"
+        rocky.vm.hostname = "rockylinux"
     end
 
     config.vm.provision "file", source: "id_rsa.pub", destination: "~/.ssh/me.pub"
