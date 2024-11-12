@@ -4,6 +4,7 @@
 sudo dnf update
 
 # Instalace balicku apache2
+
 sudo dnf install -y httpd
 
 # Povoleni sluzby apache2

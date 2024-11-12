@@ -9,10 +9,10 @@ Repository pro vyuku na SPOS DK
   [Apache](https://httpd.apache.org/).
 
 ```console
-apt-get update
-apt-get install -y apache2
+dnf update
+dnf install -y httpd
 
-systemctl enable apache2
-systemctl start apache2
+systemctl enable httpd
+systemctl restart httpd
 ```
 ...
