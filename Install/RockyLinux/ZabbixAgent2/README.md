@@ -19,4 +19,17 @@ dnf install -y zabbix-agent2 zabbix-agent2-plugin-*
 systemctl enable zabbix-agent2
 systemctl start zabbix-agent2
 ```
+
+### Konfigurace Zabbix Agent2
+
+```console
+joe /etc/zabbix/zabbix_agent2.conf
+...
+Hostname=rockylinux-8e714c18
+Server=enceladus.pfsense.cz
+ServerActive=enceladus.pfsense.cz
+Timeout=30
+HostMetadata=SPOS
+
+systemctl restart zabbix-agent2
 ...
