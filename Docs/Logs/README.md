@@ -1,4 +1,5 @@
 # Logs
+
 Repositories for teaching purposes at SPOS DK
 
 Repository pro vyuku na SPOS DK
@@ -43,5 +44,10 @@ Oct 30 21:12:20 192.168.5.221 devd[528]: Popping table
 Oct 30 21:12:20 192.168.5.221 sshd[25236]: Received disconnect from 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 50580:11: disconnected by user
 Oct 30 21:12:20 192.168.5.221 sshd[25236]: Disconnected from user malyl 2a01:a040:2002:8041:fa76:5dd1:9540:a52b port 50580
 ```
-
 - Pomocí ChatGPT zjistěte co se děje při přihlášení a odhlásení pomocí ssh. V log souboru se zaměřte na sshd, ale více na devd.
+
+- Pomocí příkazu níže se zamyslete nad zpracováním logů pomocí cmd utilit.
+
+```console
+cat auth.log | grep 'Accepted publickey' | awk '{print $1" "$2" "$3" "$9" - "$11}' | sort | uniq | grep -v malyl
+```
