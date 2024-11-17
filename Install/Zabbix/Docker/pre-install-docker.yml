@@ -1,0 +1,55 @@
+---
+- name: Installing Docker
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Install several packages
+      apt:
+        name:
+          - git
+          - pwgen
+          - unzip
+          - python3-pip
+        state: present
+
+    - name: Add Docker GPG apt Key
+      apt_key:
+        url: "https://download.docker.com/linux/ubuntu/gpg"
+        state: present
+
+    - name: Add Docker Repository
+      apt_repository:
+        repo: "deb https://download.docker.com/linux/ubuntu jammy stable"
+        state: present
+
+    - name: Install docker-ce, docker-ce-cli, and docker-compose-plugin package
+      apt:
+        name:
+          - docker-ce
+          - docker-ce-cli
+          - docker-compose-plugin
+        state: present
+        update_cache: true
+
+    - name: Ensure docker service is started
+      service:
+        name: docker
+        state: started
+
+    - name: Add zabbix user to the docker group
+      user:
+        name: zabbbix
+        groups: docker
+        append: yes
+
+    - name: Set permissions for Docker socket
+      file:
+        path: /var/run/docker.sock
+        mode: "0666"
+        owner: root
+        group: docker
+
+    - name: Install docker-compose via pip3
+      pip:
+        name: docker-compose
+        executable: pip3
