@@ -11,6 +11,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "ubuntu" do |ubuntu|
         ubuntu.vm.box = IMAGE_NAME
         ubuntu.vm.network "forwarded_port", guest: 22, host: 2202, host_ip: "127.0.0.1"
+	ubuntu.vm.network "forwarded_port", guest: 80, host: 8002, host_ip: "127.0.0.1"
         ubuntu.vm.hostname = "ubuntu"
     end
 
