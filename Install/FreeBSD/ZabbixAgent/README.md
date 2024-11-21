@@ -1,35 +1,35 @@
-# Install Zabbix Agent2 on RockyLinux
+# Install Zabbix Agentd on FreeBSD
 Repositories for teaching purposes at SPOS DK
+
+![FreeBSD and ZabbixAgent OSY AI](../../../Images/osy-FreeBSD-ZabbixAgent.webp)
 
 Repository pro vyuku na SPOS DK
 
-## Automatická instalace Zabbix Agent2 na OS RockyLinux
+## Automatická instalace Zabbix Agentd na OS FreeBSD
 
 - Vagrantfile obsahuje sekci pro aplikaci příkazů pro instalaci monitorovacího
-[Zabbix Agent2](https://www.zabbix.com/).
+[Zabbix Agent](https://www.zabbix.com/).
 
-### Instalace Zabbix Agent2
+### Instalace Zabbix Agent
 
 ```console
-rpm -Uvh https://repo.zabbix.com/zabbix/6.0/rhel/9/x86_64/zabbix-release-latest.el9.noarch.rpm
-dnf clean all
+pkg install -y zabbix6-agent
 
-dnf install -y zabbix-agent2 zabbix-agent2-plugin-* 
-
-systemctl enable zabbix-agent2
-systemctl start zabbix-agent2
+/usr/local/etc/rc.d/zabbix_agentd enable
+/usr/local/etc/rc.d/zabbix_agentd restart
 ```
 
-### Konfigurace Zabbix Agent2
+### Konfigurace Zabbix Agentd
 
 ```console
-joe /etc/zabbix/zabbix_agent2.conf
+joe /usr/local/etc/zabbix6/zabbix_agentd.conf
 ...
-Hostname=rockylinux-8e714c18
+Hostname=freebsd-8e714c18
 Server=enceladus.pfsense.cz
 ServerActive=enceladus.pfsense.cz
 Timeout=30
 HostMetadata=SPOS
 
-systemctl restart zabbix-agent2
+/usr/local/etc/rc.d/zabbix_agentd restart
+```
 ...

@@ -1,6 +1,8 @@
 # Install Zabbix Agent2 on RockyLinux
 Repositories for teaching purposes at SPOS DK
 
+![RockyLinux and ZabbixAgent2 OSY AI](../../../Images/osy-RockyLinux-ZabbixAgent2.webp)
+
 Repository pro vyuku na SPOS DK
 
 ## Automatická instalace Zabbix Agent2 na OS RockyLinux
