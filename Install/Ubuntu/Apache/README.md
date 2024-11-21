@@ -1,6 +1,8 @@
 # Install Apache on Ubuntu
 Repositories for teaching purposes at SPOS DK
 
+![Ubuntu and Apache OSY AI](../../../Images/osy-Ubuntu-Apache.webp)
+
 Repository pro vyuku na SPOS DK
 
 ## Automatická instalace OS Linux Ubuntu and Web server Apache2

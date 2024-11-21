@@ -1,6 +1,8 @@
 # Install MariaDB on RockyLinux
 Repositories for teaching purposes at SPOS DK
 
+![RockyLinux and MariaDB OSY AI](../../../Images/osy-RockyLinux-MariaDB.webp)
+
 Repository pro vyuku na SPOS DK
 
 ## Automatická instalace OS RockyLinux and SQL database MariaDB

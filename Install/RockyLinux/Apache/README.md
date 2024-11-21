@@ -1,6 +1,8 @@
 # Install Apache on RockyLinux
 Repositories for teaching purposes at SPOS DK
 
+![RockyLinux and Apache OSY AI](../../../Images/osy-RockyLinux-Apache.webp)
+
 Repository pro vyuku na SPOS DK
 
 ## Automatická instalace OS RockyLinux a Web server Apache2
