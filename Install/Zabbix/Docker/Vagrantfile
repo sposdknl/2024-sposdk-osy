@@ -21,4 +21,22 @@ Vagrant.configure("2") do |config|
 
     SHELL
 
+    config.vm.provision "file", source: "pre-install-docker.yml", destination: "~/"
+
+    config.vm.provision "shell", inline: <<-SHELL
+	sudo apt update
+	sudo apt install -y ansible net-tools git
+	ansible-playbook pre-install-docker.yml
+	git clone https://github.com/zabbix/zabbix-docker
+	cd zabbix-docker
+	sudo docker compose -f ./docker-compose_v3_ubuntu_pgsql_latest.yaml up -d
+
+    SHELL
+
+
+
+
+
+
+
 end
