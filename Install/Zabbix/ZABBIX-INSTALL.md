@@ -12,7 +12,7 @@ Zabbix - [https://www.zabbix.com](https://www.zabbix.com)
 - Po instalaci a konfiguraci použijeme Browser a provedeme finalni konfiguraci
 
 ```console
-    #Vytvorime si VM s Ubuntu 24.04
+    # Vytvorime si VM s Ubuntu 24.04
     vagrant up
     vagrant ssh
 
