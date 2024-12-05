@@ -1,4 +1,4 @@
-IMAGE_NAME = "ubuntu/jammy64"
+IMAGE_NAME = "bento/ubuntu-24.04"
 
 Vagrant.configure("2") do |config|
     config.ssh.insert_key = false
@@ -20,54 +20,5 @@ Vagrant.configure("2") do |config|
     cat /home/vagrant/.ssh/me.pub >> /home/vagrant/.ssh/authorized_keys
 
     SHELL
-
-    config.vm.provision "shell", inline: <<-SHELL
-
-    # Aktualizace systému
-    sudo apt-get update
-    sudo apt-get upgrade -y
-
-    # Instalace základních nástrojů
-    sudo apt-get install -y wget curl vim gnupg2
-
-    # Instalace MySQL serveru (MariaDB)
-    sudo apt-get install -y mariadb-server
-    sudo systemctl start mariadb
-    sudo systemctl enable mariadb
-
-    # Konfigurace databáze pro Zabbix
-    sudo mysql -e "CREATE DATABASE zabbix CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;"
-    sudo mysql -e "CREATE USER 'zabbix'@'localhost' IDENTIFIED BY 'zabbix_password';"
-    sudo mysql -e "GRANT ALL PRIVILEGES ON zabbix.* TO 'zabbix'@'localhost';"
-    sudo mysql -e "FLUSH PRIVILEGES;"
-
-    # Přidání Zabbix 7.0 LTS repository
-    wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2%2Bubuntu22.04_all.deb
-    sudo dpkg -i zabbix-release_7.0-2+ubuntu22.04_all.deb
-    sudo apt-get update
-
-    # Instalace Zabbix serveru, frontend a agenta
-    sudo apt-get install -y zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-agent
-
-    # Import Zabbix databázové struktury
-    sudo zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -u zabbix -pzabbix_password zabbix
-
-    # Konfigurace Zabbix serveru
-    sudo sed -i 's/# DBPassword=/DBPassword=zabbix_password/' /etc/zabbix/zabbix_server.conf
-
-    # Spuštění Zabbix serveru a agenta
-    sudo systemctl restart zabbix-server zabbix-agent apache2
-    sudo systemctl enable zabbix-server zabbix-agent apache2
-
-    # Konfigurace PHP pro Zabbix frontend
-    sudo sed -i 's/^max_execution_time = .*/max_execution_time = 300/' /etc/php/*/apache2/php.ini
-    sudo sed -i 's/^memory_limit = .*/memory_limit = 128M/' /etc/php/*/apache2/php.ini
-    sudo sed -i 's/^post_max_size = .*/post_max_size = 16M/' /etc/php/*/apache2/php.ini
-    sudo sed -i 's/^upload_max_filesize = .*/upload_max_filesize = 2M/' /etc/php/*/apache2/php.ini
-    sudo sed -i 's/^;date.timezone =.*/date.timezone = Europe\/Prague/' /etc/php/*/apache2/php.ini
-
-    # Restart Apache pro načtení změn
-    sudo systemctl restart apache2
-  SHELL
 
 end

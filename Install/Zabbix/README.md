@@ -5,6 +5,10 @@ Repository pro vyuku na SPOS DK
 
 ## Install Monitoring System
 
-[Zabbix](https://www.zabbix.com/download)
+[Zabbix https://www.zabbix.com)](https://www.zabbix.com)
+
+- Manualní instalace
+- Vagrant automaticka instalace do VM
+- Docker automatická instalace
 
 ...
