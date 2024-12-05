@@ -5,7 +5,7 @@ Repository pro vyuku na SPOS DK
 
 ## Manuální postup instalace Zabbix monitorovacího systému 
 
-Zabbix - [https://www.zabbix.com)](https://www.zabbix.com)
+Zabbix - [https://www.zabbix.com](https://www.zabbix.com)
 
 - Vytvoříme si VM s Ubuntu 24.04
 - Po přihláení do OS postupně vykonáme tyto příkazy
