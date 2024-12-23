@@ -7,4 +7,5 @@ Repository pro vyuku na SPOS DK
 
 [pfSnese](https://www.pfsense.org/download/)
 
+- pfSense Vagrant Box (Image) - [cs-c4300/pfsense](https://portal.cloud.hashicorp.com/vagrant/discover/cs-c4300/pfsense)
 ...
