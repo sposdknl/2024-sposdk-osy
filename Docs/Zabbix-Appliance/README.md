@@ -57,6 +57,7 @@ GRANT REPLICATION CLIENT,PROCESS,SHOW DATABASES,SHOW VIEW ON *.* TO 'zbx_monitor
 
 - Test discovery databází - Database discovery
 - Kliknětě na tlačítko Test a získejte LLD JSON
+- Zkontrolute funkční grafy viz Dashboard
 
 ```console
 [{"Database":"information_schema"},{"Database":"mysql"},{"Database":"performance_schema"},{"Database":"sys"},{"Database":"zabbix"}]
