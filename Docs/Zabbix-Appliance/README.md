@@ -14,7 +14,9 @@ Repository pro vyuku na SPOS DK
 ### Konfigurace Install Zabbix Appliance
 
 - Nastavte portforward na úrovni VirtualBoxu - 80 na 8080 a 22 na 2200
-- Posléze se přihlašte pomoci SSH a vyměňte Zabbix agenta, doinstalujte Zabbix Agent2
+- Posléze se přihlašte pomoci SSH a WebGUI vyměňte Zabbix agenta, doinstalujte Zabbix Agent2
+- http://127.0.0.1:8080 - user Admin heslo zabbix
+- ssh root@127.0.0.1 -p 2200 - heslo zabbix
 
 ```console
 dnf install -y zabbix-agent2
