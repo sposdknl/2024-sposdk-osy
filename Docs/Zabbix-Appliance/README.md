@@ -32,10 +32,10 @@ tail -f /var/log/zabbix/zabbix_agent2.log
 
 ### Zprovozněte monitoring MySQL
 
-- V Zabbix GUI vytvořte nového hosta MySQL Database např. jako klon Zabbix server
-- Nalinkujte šablonu [MySQL by Zabbix agent 2](https://git.zabbix.com/projects/ZBX/repos/zabbix/browse/templates/db/mysql_agent2)
-- Vytvořte db usera a heslo viz dokumentace k šabloně
-- Upravte Makra hosta
+- V Zabbix GUI vytvořte nového hosta "MySQL Database" např. jako klon Zabbix server.
+- Nalinkujte šablonu [MySQL by Zabbix agent 2](https://git.zabbix.com/projects/ZBX/repos/zabbix/browse/templates/db/mysql_agent2).
+- Vytvořte db usera pro monitoring a heslo viz dokumentace k šabloně.
+- Nastavte Makra hosta viz šablona.
 
 ```console
 mysql
