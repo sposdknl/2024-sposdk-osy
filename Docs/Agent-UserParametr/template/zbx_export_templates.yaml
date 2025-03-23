@@ -1,0 +1,65 @@
+zabbix_export:
+  version: '7.0'
+  template_groups:
+    - uuid: 7df96b18c230490a9a0a9e2307226338
+      name: Templates
+  templates:
+    - uuid: 702e14f38f0846129284a7e90f39a663
+      template: Training
+      name: Training
+      description: |
+        Trénovací šablona pro SPOŠ
+        
+        https://github.com/sposdknl/
+      groups:
+        - name: Templates
+      items:
+        - uuid: 0b520a7fe234440badc2bf5a72136fa9
+          name: 'Random number'
+          key: zbx.cmd.random
+          delay: 5s
+          tags:
+            - tag: class
+              value: random
+          triggers:
+            - uuid: 84f34b10c58c4075bd0983f8be0e6f49
+              expression: 'min(/Training/zbx.cmd.random,#3)>={$TRIGGER_RANDOM_NUMBER}'
+              name: 'Random number >= {$TRIGGER_RANDOM_NUMBER}'
+              priority: WARNING
+              tags:
+                - tag: class
+                  value: random-number
+      tags:
+        - tag: target
+          value: user-parametr
+      macros:
+        - macro: '{$TRIGGER_RANDOM_NUMBER}'
+          value: '90'
+      dashboards:
+        - uuid: f43d6fbcc9ad4fcd91113b1a343ca87f
+          name: 'Random number'
+          pages:
+            - widgets:
+                - type: graph
+                  name: 'Graph random number'
+                  width: '72'
+                  height: '5'
+                  fields:
+                    - type: GRAPH
+                      name: graphid.0
+                      value:
+                        host: Training
+                        name: 'Random number'
+                    - type: STRING
+                      name: reference
+                      value: SJSEV
+  graphs:
+    - uuid: 555469b7d2af4f90bea992f141e9979f
+      name: 'Random number'
+      graph_items:
+        - drawtype: FILLED_REGION
+          color: 7B1FA2
+          calc_fnc: ALL
+          item:
+            host: Training
+            key: zbx.cmd.random
