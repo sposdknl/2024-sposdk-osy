@@ -3,7 +3,7 @@ Repositories for teaching purposes at SPOS DK
 
 Repository pro vyuku na SPOS DK
 
-![Zabbix agent UserParametr](../../Images/zabbix-agent2-UserParameter.png)
+![Zabbix agent2 UserParametr](../../Images/zabbix-agent2-UserParameter.png)
 
 ## Zabbix agent2 - UserParameter
 
