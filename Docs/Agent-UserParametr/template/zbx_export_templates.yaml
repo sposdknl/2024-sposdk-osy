@@ -11,6 +11,9 @@ zabbix_export:
         Trénovací šablona pro SPOŠ
         
         https://github.com/sposdknl/
+      vendor:
+        name: Open-Tech
+        version: 7.0-0
       groups:
         - name: Templates
       items:
