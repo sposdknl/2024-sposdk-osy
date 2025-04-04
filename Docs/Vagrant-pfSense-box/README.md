@@ -85,6 +85,8 @@ systemctl restart network.service
 - Doinstalujte balicek net-snmp-utils 
 - Ověřte fungovaní SNMP pomocí snmpwalk ze Zabbix serveru
 
+![pfSense SNMP](../../Images/pfsense-box-SNMP.PNG)
+
 ```console
 dnf install net-snmp-utils
 
@@ -99,6 +101,8 @@ SNMPv2-MIB::sysServices.0 = INTEGER: 76
 ```
 
 ## Monitorujte hosta pfSense
+
+![Zabbix SNMP](../../Images/Zabbix-SNMP-Interface.PNG)
 
 - Vytvořte hosta pfsense-box
 - Nastavte SNMP interface na spravnoi IPv4 a port
