@@ -1,0 +1,20 @@
+zabbix_export:
+  version: '7.0'
+  host_groups:
+    - uuid: 41140b2c8d404ad1ae5222a23db0cf12
+      name: 'FreeBSD servers'
+  hosts:
+    - host: pfsense-box
+      name: pfsense-box
+      templates:
+        - name: 'PFSense by SNMP'
+      groups:
+        - name: 'FreeBSD servers'
+      interfaces:
+        - type: SNMP
+          ip: 192.168.1.1
+          port: '161'
+          details:
+            community: '{$SNMP_COMMUNITY}'
+          interface_ref: if1
+      inventory_mode: AUTOMATIC
